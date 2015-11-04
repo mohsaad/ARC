@@ -13,6 +13,7 @@ import shutil
 import math
 from math import radians
 import utm
+import argparse
 
 class MapOverlayer():
 	
@@ -250,19 +251,26 @@ class MapOverlayer():
 		for i in range(1, 1000):
 			print str(self.find_distance_between_gps(self.gps_coords[0], self.gps_coords[1])) + " " + str(i) + " " + str(i-1)	
 
-def main():
-	m = MapOverlayer('data.gps','key')
-
+def main(args):
+	
+	m = MapOverlayer(args.gps, args.key)
+	
 	m.get_starting_image(15,0)
 	m.get_image()
 	
 	m.find_start_point()
 	m.plot_gps_data()
 
-	m.load_slam_data('pos.utm')
+	m.load_slam_data(args.slam)
 	m.find_start_point()
 	m.get_second_results()
 	m.showImg()
 
 if __name__ == '__main__':
-	main()	
+	parser = argparse.ArgumentParser()
+        parser.add_argument('--gps', help = 'GPS data file')
+        parser.add_argument('--slam', help = 'SLAM output')
+        parser.add_argument('--key', help = 'Bing Maps API key')
+        args = parser.parse_args()
+	print args.gps
+	main(args)	
