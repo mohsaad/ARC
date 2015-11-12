@@ -45,7 +45,7 @@ class MapOverlayer():
 		self.api_key = api_key
 		self.base_url_1 = 'http://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/'
 		self.base_url_2 = '?mapSize=600,600&key='+api_key
-		self.path = '/home/saad/Documents/Research/img.png'
+		self.path = '/home/saad/Research/ARC/map/img.png'
 
 
 	def find_avg(self, list_of_coords):
@@ -175,7 +175,7 @@ class MapOverlayer():
 					
 	def showImg(self):
 		cv2.imshow('img',self.img)
-				cv2.waitKey(0) # for debugging
+		cv2.waitKey(0) # for debugging
 		
 
 	def plotResults(self, filename):
@@ -253,6 +253,70 @@ class MapOverlayer():
 			self.img[lastIntX][lastIntY] = color				
 					
 	
+	def plot_real_time(self, color = [255,0,0]):
+		(currX, currY) = self.start
+		(lastIntX, lastIntY) = self.start
+
+		# data for input
+		data = raw_input()
+		data = data.split(",")
+		lastN = int(data[4])
+		lastE = int(data[3])
+				
+		while data is not "END":
+			data = raw_input()
+			if data is "END":
+				break
+
+			data = data.split(",")
+			currN = int(data[4])
+			currE = int(data[3])	
+
+
+			tX = -1*(currN - lastN)/self.get_meters_per_pixel(self.zoom_lvl)
+			tY = (currE - lastE)/self.get_meters_per_pixel(self.zoom_lvl)
+			
+			currX += tX
+			currY += tY
+
+			if(currX >= lastIntX + 1):
+				lastIntX = math.floor(currX)
+			elif(currX <= lastIntX - 1):
+				lastIntX = math.ceil(currX)
+			else:
+				pass
+
+			if(currY >= lastIntY + 1):
+				lastIntY = math.floor(currY)
+			elif(currY <= lastIntY -1):
+				lastIntY = math.ceil(currY)
+			else:
+				pass
+
+			if(lastIntX < 0):
+				break
+			elif(lastIntX >= self.img.shape[0]):
+				break
+			else:
+				pass
+
+			if(lastIntY < 0):
+				break
+			elif(lastIntY >= self.img.shape[1]):
+				break
+			else:
+				pass
+
+
+			self.img[lastIntX][lastIntY] = color	
+			lastN = currN
+			lestE = currE
+
+	def use_real_time(self):
+
+		self.find_start_point()
+		self.plot_real_time()
+
 	def test(self):
 		for i in range(1, 1000):
 			print str(self.find_distance_between_gps(self.gps_coords[0], self.gps_coords[1])) + " " + str(i) + " " + str(i-1)	
@@ -267,16 +331,14 @@ def main(args):
 	m.find_start_point()
 	m.plot_gps_data()
 
-	m.load_slam_data(args.slam)
-	m.find_start_point()
-	m.get_second_results()
+	m.use_real_time()
 	m.showImg()
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
-		parser.add_argument('--gps', help = 'GPS data file')
-		parser.add_argument('--slam', help = 'SLAM output')
-		parser.add_argument('--key', help = 'Bing Maps API key')
-		args = parser.parse_args()
+	parser.add_argument('--gps', help = 'GPS data file')
+	parser.add_argument('--slam', help = 'SLAM output')
+	parser.add_argument('--key', help = 'Bing Maps API key')
+	args = parser.parse_args()
 	print args.gps
 	main(args)	
