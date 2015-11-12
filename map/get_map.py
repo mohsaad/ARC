@@ -43,7 +43,7 @@ class MapOverlayer():
 		self.api_key = api_key
 		self.base_url_1 = 'http://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/'
 		self.base_url_2 = '?mapSize=600,600&key='+api_key
-		self.path = '/home/saad/Research/ARC/map/img.png'
+		self.path = '/home/saad/Research/ARC/map/map'
 
 
 	def find_avg(self, list_of_coords):
@@ -60,7 +60,9 @@ class MapOverlayer():
 		first_coord = self.find_avg(self.gps_coords)
 		self.center = first_coord
 		self.zoom_lvl = zoom_level
+		self.path += str(self.zoom_lvl) + '.png'
 
+		print self.path
 		url = self.base_url_1 + str(first_coord[0])+',' + str(first_coord[1]) + '/' + str(zoom_level)
 		url += self.base_url_2
 		
@@ -74,7 +76,7 @@ class MapOverlayer():
 
 	# reads image in to draw coordinates on
 	def get_image(self):
-		self.img = cv2.imread('img.png')
+		self.img = cv2.imread(self.path)
 		#cv2.imshow('img',self.img)
 		#cv2.waitKey(0) # for debugging
 
@@ -150,16 +152,16 @@ class MapOverlayer():
 				pass
 
 			if(lastIntX < 0):
-				break
+				continue
 			elif(lastIntX >= self.img.shape[0]):
-				break
+				continue
 			else:
 				pass
 
 			if(lastIntY < 0):
-				break
+				continue
 			elif(lastIntY >= self.img.shape[1]):
-				break
+				continue
 			else:
 				pass
 			
@@ -230,16 +232,16 @@ class MapOverlayer():
 				pass
 
 			if(lastIntX < 0):
-				break
+				continue
 			elif(lastIntX >= self.img.shape[0]):
-				break
+				continue
 			else:
 				pass
 
 			if(lastIntY < 0):
-				break
+				continue
 			elif(lastIntY >= self.img.shape[1]):
-				break
+				continue
 			else:
 				pass
 
@@ -287,25 +289,27 @@ class MapOverlayer():
 			else:
 				pass
 
+			lastN = currN
+			lastE = currE
+
 			if(lastIntX < 0):
-				break
+				continue
 			elif(lastIntX >= self.img.shape[0]):
-				break
+				continue
 			else:
 				pass
 
 			if(lastIntY < 0):
-				break
+				continue
 			elif(lastIntY >= self.img.shape[1]):
-				break
+				continue
 			else:
 				pass
 
 
 			
 			self.img[lastIntX][lastIntY] = color	
-			lastN = currN
-			lastE = currE
+			
 			cv2.imshow("Map", self.img)
 			cv2.waitKey(1)
 
@@ -325,7 +329,7 @@ def main(args):
 	
 	m = MapOverlayer(args.gps, args.key)
 	
-	m.get_starting_image(15,0)
+	m.get_starting_image(int(args.zoom_level),0)
 	m.get_image()
 	
 	m.find_start_point()
@@ -338,5 +342,6 @@ if __name__ == '__main__':
 	parser.add_argument('--gps', help = 'GPS data file')
 	parser.add_argument('--slam', help = 'SLAM output')
 	parser.add_argument('--key', help = 'Bing Maps API key')
+	parser.add_argument('--zoom_level', help= "Zoom Level")
 	args = parser.parse_args()
 	main(args)	
