@@ -20,9 +20,10 @@ class MapOverlayer():
 
 	# constructor
 	# gets gps coordinates and stores them in an array
-	def __init__(self, gps_file, api_key):
+	def __init__(self, gps_file, api_key_file):
 		self.gps_coords = []
 		count = 0
+
 		with open(gps_file, 'r') as f:
 			for line in f:
 				data_arr = line.split(',')
@@ -36,6 +37,11 @@ class MapOverlayer():
 		print count
 		print(self.gps_coords[0])
 		
+		with open(api_key_file, 'r') as f:
+			for line in f:
+				api_key = line
+		f.close()
+
 		self.api_key = api_key
 		self.base_url_1 = 'http://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/'
 		self.base_url_2 = '?mapSize=600,600&key='+api_key
@@ -68,9 +74,9 @@ class MapOverlayer():
 		print r.status_code
 
 		if r.status_code == 200:
-   			 with open(self.path, 'wb') as f:
-        			r.raw.decode_content = True
-        			shutil.copyfileobj(r.raw, f)
+			 with open(self.path, 'wb') as f:
+					r.raw.decode_content = True
+					shutil.copyfileobj(r.raw, f)
 
 
 	# reads image in to draw coordinates on
@@ -115,15 +121,15 @@ class MapOverlayer():
 			
 	def gps_dist_in_pixels(self, gps1, gps2):
 		diffV = abs(self.find_distance_between_gps(gps1, (gps1[0],gps2[1])))
-                diffH = abs(self.find_distance_between_gps((gps2[0],gps1[1]), gps1))
+		diffH = abs(self.find_distance_between_gps((gps2[0],gps1[1]), gps1))
 		if(gps1[0] > gps2[0]):
 			diffH *= -1
 		
 		if(gps1[1] > gps2[1]):
 			diffV *= -1
 
-                totalPixelX = diffH / self.get_meters_per_pixel(self.zoom_lvl)
-                totalPixelY = diffV / self.get_meters_per_pixel(self.zoom_lvl)
+		totalPixelX = diffH / self.get_meters_per_pixel(self.zoom_lvl)
+		totalPixelY = diffV / self.get_meters_per_pixel(self.zoom_lvl)
 
 		return (totalPixelX, totalPixelY)
 
@@ -169,7 +175,7 @@ class MapOverlayer():
 					
 	def showImg(self):
 		cv2.imshow('img',self.img)
-                cv2.waitKey(0) # for debugging
+				cv2.waitKey(0) # for debugging
 		
 
 	def plotResults(self, filename):
@@ -194,14 +200,14 @@ class MapOverlayer():
 		self.north = []
 		i = 0
 		with open(filename, 'r') as f:
-                        for line in f:
+			for line in f:
 				if i == 0:
 					i = 1
 					continue
-                                line = line.split(',')
-                                self.east.append(float(line[3]))
-                                self.north.append(float(line[4]))
-                f.close()
+				line = line.split(',')
+				self.east.append(float(line[3]))
+				self.north.append(float(line[4]))
+		f.close()
 			
 
 	def get_second_results(self, color = [255,0,0]):
@@ -214,37 +220,37 @@ class MapOverlayer():
 			tY = (self.east[i] - self.east[i - 1])/self.get_meters_per_pixel(self.zoom_lvl)
 			
 			currX += tX
-                        currY += tY
+			currY += tY
 
-                        if(currX >= lastIntX + 1):
-                                lastIntX = math.floor(currX)
-                        elif(currX <= lastIntX - 1):
-                                lastIntX = math.ceil(currX)
-                        else:
-                                pass
+			if(currX >= lastIntX + 1):
+				lastIntX = math.floor(currX)
+			elif(currX <= lastIntX - 1):
+				lastIntX = math.ceil(currX)
+			else:
+				pass
 
-                        if(currY >= lastIntY + 1):
-                                lastIntY = math.floor(currY)
-                        elif(currY <= lastIntY -1):
-                                lastIntY = math.ceil(currY)
-                        else:
-                                pass
+			if(currY >= lastIntY + 1):
+				lastIntY = math.floor(currY)
+			elif(currY <= lastIntY -1):
+				lastIntY = math.ceil(currY)
+			else:
+				pass
 
-                        if(lastIntX < 0):
-                                break
-                        elif(lastIntX >= self.img.shape[0]):
-                                break
-                        else:
-                                pass
+			if(lastIntX < 0):
+				break
+			elif(lastIntX >= self.img.shape[0]):
+				break
+			else:
+				pass
 
 			if(lastIntY < 0):
-                                break
-                        elif(lastIntY >= self.img.shape[1]):
-                                break
-                        else:
-                                pass
+				break
+			elif(lastIntY >= self.img.shape[1]):
+				break
+			else:
+				pass
 
-                        self.img[lastIntX][lastIntY] = color				
+			self.img[lastIntX][lastIntY] = color				
 					
 	
 	def test(self):
@@ -268,9 +274,9 @@ def main(args):
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
-        parser.add_argument('--gps', help = 'GPS data file')
-        parser.add_argument('--slam', help = 'SLAM output')
-        parser.add_argument('--key', help = 'Bing Maps API key')
-        args = parser.parse_args()
+		parser.add_argument('--gps', help = 'GPS data file')
+		parser.add_argument('--slam', help = 'SLAM output')
+		parser.add_argument('--key', help = 'Bing Maps API key')
+		args = parser.parse_args()
 	print args.gps
 	main(args)	
