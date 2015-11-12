@@ -306,6 +306,11 @@ class MapOverlayer():
 			self.img[lastIntX][lastIntY] = color	
 			lastN = currN
 			lastE = currE
+			cv2.imshow("Map", self.img)
+			cv2.waitKey(1)
+
+		# wait until user exits
+		cv2.waitKey(0)
 
 	def use_real_time(self):
 
@@ -327,7 +332,6 @@ def main(args):
 	m.plot_gps_data()
 
 	m.use_real_time()
-	m.showImg()
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
