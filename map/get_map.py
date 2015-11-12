@@ -34,8 +34,6 @@ class MapOverlayer():
 		
 		f.close()
 		
-		print count
-		print(self.gps_coords[0])
 		
 		with open(api_key_file, 'r') as f:
 			for line in f:
@@ -67,11 +65,6 @@ class MapOverlayer():
 		url += self.base_url_2
 		
 		r = requests.get(url)
-		
-
-
-		print first_coord
-		print r.status_code
 
 		if r.status_code == 200:
 			 with open(self.path, 'wb') as f:
@@ -260,17 +253,18 @@ class MapOverlayer():
 		# data for input
 		data = raw_input()
 		data = data.split(",")
-		lastN = int(data[4])
-		lastE = int(data[3])
+		lastN = float(data[4])
+		lastE = float(data[3])
 				
 		while data is not "END":
 			data = raw_input()
-			if data is "END":
+			print data
+			if data == "END":
 				break
 
 			data = data.split(",")
-			currN = int(data[4])
-			currE = int(data[3])	
+			currN = float(data[4])
+			currE = float(data[3])	
 
 
 			tX = -1*(currN - lastN)/self.get_meters_per_pixel(self.zoom_lvl)
@@ -308,9 +302,10 @@ class MapOverlayer():
 				pass
 
 
+			
 			self.img[lastIntX][lastIntY] = color	
 			lastN = currN
-			lestE = currE
+			lastE = currE
 
 	def use_real_time(self):
 
@@ -340,5 +335,4 @@ if __name__ == '__main__':
 	parser.add_argument('--slam', help = 'SLAM output')
 	parser.add_argument('--key', help = 'Bing Maps API key')
 	args = parser.parse_args()
-	print args.gps
 	main(args)	
