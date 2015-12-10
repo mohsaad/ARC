@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+	<Document>
+		<NetworkLink>
+			<Link>
+				<href>C:\Users\Saad\Documents\School\Research\ARC\output.kml</href>
+		  		<refreshMode>onInterval</refreshMode>
+		  		<refreshInterval>0.2</refreshInterval>
+			</Link>
+	  	</NetworkLink>
+	</Document>
+</kml>
