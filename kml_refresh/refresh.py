@@ -37,6 +37,25 @@ class MapRefresher:
 	def write_start_file(self):
 		self.outtree.write(self.output)
 
+	def write_header_file(self):
+		folder_top = self.document.findall(append_gis_str('Folder'))[0]
+		folder_top_2 = ET.SubElement(self.doc2, append_gis_str('Folder'))
+		for child in folder_top:
+			if child.tag != append_gis_str('Folder'):
+				temp = deepcopy(child)
+				folder_top_2.append(temp)
+
+		# create mid-level folder
+		folder_middle = folder_top.findall(append_gis_str('Folder'))[0]
+		folder_middle_2 = ET.SubElement(folder_top_2, append_gis_str('Folder'))
+
+		for child in folder_middle:
+			if child.tag != append_gis_str('Folder') and child.tag != append_gis_str('Placemark'):
+				temp = deepcopy(child)
+				folder_middle_2.append(temp)
+
+		self.outtree.write("header.kml")
+
 
 	def write_to_output_kml_interval(self, interval_length = 10):
 		print "Place file into google earth"
@@ -100,7 +119,7 @@ class MapRefresher:
 			self.outtree.write(self.output)
 			time.sleep(interval_length)	
 		
-		# self.outtree.write(self.output)
+		self.outtree.write(self.output)
 
 
 
@@ -117,7 +136,8 @@ def append_gis_str(string):
 def main():
 	m = MapRefresher('pos2.kml', 'output.kml')
 	m.write_start_file()
-	m.write_to_output_kml_interval(0.2)
+	m.write_header_file()
+	# m.write_to_output_kml_interval(0.2)
 
 if __name__ == '__main__':
 	main()
