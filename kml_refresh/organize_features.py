@@ -27,7 +27,7 @@ class FeatureOrganizer:
 						continue
 					else:
 						total_count += 1
-						outf.write("{0},{1},{2},{3},{4},{5}\n".format(total_count, zone, ch, line[2], line[1], line[0]))
+						outf.write("{0},{1},{2},{3},{4}\n".format(total_count, zone, ch, line[2], line[1]))
 
 		f.close()
 		outf.close()
@@ -35,7 +35,7 @@ class FeatureOrganizer:
 
 
 def main():
-	fo = FeatureOrganizer('feats.out', 'out.utm')
+	fo = FeatureOrganizer('feats.out', 'feats.unicsv')
 	fo.read_features_and_select(30, 16, "T")
 
 if __name__ == '__main__':
