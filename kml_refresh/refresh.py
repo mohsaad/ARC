@@ -124,7 +124,6 @@ class MapRefresher:
 
 
 
-
 '''
 append_gis_str
 Used to append the xml namespace so we can access elements
@@ -137,7 +136,7 @@ def main():
 	m = MapRefresher('pos2.kml', 'output.kml')
 	m.write_start_file()
 	m.write_header_file()
-	# m.write_to_output_kml_interval(0.2)
+	m.write_to_output_kml_interval(0.2)
 
 if __name__ == '__main__':
 	main()
