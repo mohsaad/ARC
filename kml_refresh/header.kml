@@ -1,11 +1,8 @@
-<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2"><Document><ns0:name>GPS device</ns0:name>
-    <ns0:snippet>Created Fri Nov 20 16:06:32 2015</ns0:snippet>
-    <ns0:LookAt>
-      <ns0:longitude>-88.391373</ns0:longitude>
-      <ns0:latitude>40.204606</ns0:latitude>
-      <ns0:range>1300.000000</ns0:range>
-    </ns0:LookAt>
-    
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2">
+<ns0:Document>
+    <ns0:name>GPS device</ns0:name>
+    <ns0:snippet>Created Fri Nov 20 16:06:32 2015</ns0:snippet>    
     <ns0:Style id="track_n">
       <ns0:IconStyle>
         <ns0:scale>.5</ns0:scale>
@@ -69,11 +66,9 @@
         <ns0:width>6</ns0:width>
       </ns0:LineStyle>
     </ns0:Style>
-    <ns0:Folder><ns0:name>Tracks</ns0:name>
-      <ns0:Folder><ns0:snippet />
-        <ns0:description>
-&lt;table&gt;
-&lt;tr&gt;&lt;td&gt;&lt;b&gt;Distance&lt;/b&gt; 3101.1 ft &lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-</ns0:description>
-        </ns0:Folder></ns0:Folder></Document></ns0:kml>
+    <ns0:Folder>
+    <ns0:name>Tracks</ns0:name>
+      <ns0:Folder />
+      </ns0:Folder>
+    </ns0:Document>
+  </ns0:kml>

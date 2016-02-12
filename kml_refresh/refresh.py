@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# Mohammad Saad
+# 12/10/2015
 
 import random
 import time
@@ -48,12 +50,6 @@ class MapRefresher:
 		# create mid-level folder
 		folder_middle = folder_top.findall(append_gis_str('Folder'))[0]
 		folder_middle_2 = ET.SubElement(folder_top_2, append_gis_str('Folder'))
-
-		for child in folder_middle:
-			if child.tag != append_gis_str('Folder') and child.tag != append_gis_str('Placemark'):
-				temp = deepcopy(child)
-				folder_middle_2.append(temp)
-
 		self.outtree.write("header.kml")
 
 
@@ -136,7 +132,7 @@ def main():
 	m = MapRefresher('pos2.kml', 'output.kml')
 	m.write_start_file()
 	m.write_header_file()
-	m.write_to_output_kml_interval(0.2)
+	# m.write_to_output_kml_interval(0.2)
 
 if __name__ == '__main__':
 	main()

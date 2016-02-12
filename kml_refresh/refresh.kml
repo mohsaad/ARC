@@ -3,9 +3,9 @@
 	<Document>
 		<NetworkLink>
 			<Link>
-				<href>C:\Users\Saad\Documents\School\Research\ARC\output.kml</href>
+				<href>/home/saad/Research/ARC/kml_refresh/real_time_output.kml</href>
 		  		<refreshMode>onInterval</refreshMode>
-		  		<refreshInterval>0.2</refreshInterval>
+		  		<refreshInterval>1</refreshInterval>
 			</Link>
 	  	</NetworkLink>
 	</Document>

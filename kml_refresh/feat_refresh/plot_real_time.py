@@ -139,6 +139,7 @@ class RealTimePlotter:
 			if line_arr[0] == '\r' and total_count % 1000 == 0:
 				self.dom.write(self.output_file)
 
+			print total_count
 
 
 def append_gis_str(string):
