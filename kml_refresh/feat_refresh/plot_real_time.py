@@ -136,7 +136,7 @@ class RealTimePlotter:
 				pass
 
 			# write to file every 100 samples
-			if line_arr[0] == '\r' and total_count % 1000 == 0:
+			if line_arr[0] == '\r':
 				self.dom.write(self.output_file)
 
 			print total_count
