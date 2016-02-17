@@ -1,0 +1,6378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>GPS device</name>
+    <snippet>Created Fri Nov 20 16:06:32 2015</snippet>
+    <LookAt>
+      <longitude>-88.391373</longitude>
+      <latitude>40.204606</latitude>
+      <range>1300.000000</range>
+    </LookAt>
+    <!-- Normal track style -->
+    <Style id="track_n">
+      <IconStyle>
+        <scale>.5</scale>
+        <Icon>
+          <href>http://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <!-- Highlighted track style -->
+    <Style id="track_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="track">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#track_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#track_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <!-- Normal waypoint style -->
+    <Style id="waypoint_n">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <!-- Highlighted waypoint style -->
+    <Style id="waypoint_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#waypoint_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#waypoint_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="lineStyle">
+      <LineStyle>
+        <color>99ffac59</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>Tracks</name>
+      <Folder>
+        <snippet/>
+        <description>
+<![CDATA[<table>
+<tr><td><b>Distance</b> 3101.1 ft </td></tr>
+</table>]]>
+</description>
+        <Folder>
+          <name>Points</name>
+          <Placemark>
+            <name>WPT001</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393246 </td></tr>
+<tr><td>Latitude: 40.205347 </td></tr>
+<tr><td>Heading: 310.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393246</longitude>
+              <latitude>40.205347</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393246,40.205347</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT024</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393252 </td></tr>
+<tr><td>Latitude: 40.205319 </td></tr>
+<tr><td>Heading: 190.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393252</longitude>
+              <latitude>40.205319</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393252,40.205319</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT046</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393259 </td></tr>
+<tr><td>Latitude: 40.205292 </td></tr>
+<tr><td>Heading: 190.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393259</longitude>
+              <latitude>40.205292</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393259,40.205292</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT068</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393266 </td></tr>
+<tr><td>Latitude: 40.205264 </td></tr>
+<tr><td>Heading: 190.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393266</longitude>
+              <latitude>40.205264</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393266,40.205264</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT089</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393272 </td></tr>
+<tr><td>Latitude: 40.205236 </td></tr>
+<tr><td>Heading: 189.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393272</longitude>
+              <latitude>40.205236</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393272,40.205236</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT109</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393278 </td></tr>
+<tr><td>Latitude: 40.205208 </td></tr>
+<tr><td>Heading: 189.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393278</longitude>
+              <latitude>40.205208</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393278,40.205208</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT129</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393286 </td></tr>
+<tr><td>Latitude: 40.205181 </td></tr>
+<tr><td>Heading: 192.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393286</longitude>
+              <latitude>40.205181</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393286,40.205181</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT148</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393291 </td></tr>
+<tr><td>Latitude: 40.205154 </td></tr>
+<tr><td>Heading: 189.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393291</longitude>
+              <latitude>40.205154</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393291,40.205154</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT168</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393289 </td></tr>
+<tr><td>Latitude: 40.205126 </td></tr>
+<tr><td>Heading: 177.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393289</longitude>
+              <latitude>40.205126</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393289,40.205126</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT187</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393294 </td></tr>
+<tr><td>Latitude: 40.205097 </td></tr>
+<tr><td>Heading: 186.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393294</longitude>
+              <latitude>40.205097</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393294,40.205097</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT205</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393298 </td></tr>
+<tr><td>Latitude: 40.205070 </td></tr>
+<tr><td>Heading: 187.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393298</longitude>
+              <latitude>40.205070</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393298,40.205070</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT223</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393303 </td></tr>
+<tr><td>Latitude: 40.205041 </td></tr>
+<tr><td>Heading: 187.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393303</longitude>
+              <latitude>40.205041</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393303,40.205041</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT240</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393308 </td></tr>
+<tr><td>Latitude: 40.205014 </td></tr>
+<tr><td>Heading: 186.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393308</longitude>
+              <latitude>40.205014</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393308,40.205014</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT257</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393311 </td></tr>
+<tr><td>Latitude: 40.204986 </td></tr>
+<tr><td>Heading: 185.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393311</longitude>
+              <latitude>40.204986</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393311,40.204986</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT274</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393315 </td></tr>
+<tr><td>Latitude: 40.204958 </td></tr>
+<tr><td>Heading: 185.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393315</longitude>
+              <latitude>40.204958</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393315,40.204958</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT290</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393318 </td></tr>
+<tr><td>Latitude: 40.204930 </td></tr>
+<tr><td>Heading: 185.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393318</longitude>
+              <latitude>40.204930</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393318,40.204930</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT306</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393322 </td></tr>
+<tr><td>Latitude: 40.204903 </td></tr>
+<tr><td>Heading: 185.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393322</longitude>
+              <latitude>40.204903</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393322,40.204903</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT322</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393325 </td></tr>
+<tr><td>Latitude: 40.204875 </td></tr>
+<tr><td>Heading: 185.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393325</longitude>
+              <latitude>40.204875</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393325,40.204875</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT338</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393329 </td></tr>
+<tr><td>Latitude: 40.204846 </td></tr>
+<tr><td>Heading: 185.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393329</longitude>
+              <latitude>40.204846</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393329,40.204846</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT354</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393333 </td></tr>
+<tr><td>Latitude: 40.204817 </td></tr>
+<tr><td>Heading: 185.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393333</longitude>
+              <latitude>40.204817</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393333,40.204817</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT369</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393336 </td></tr>
+<tr><td>Latitude: 40.204789 </td></tr>
+<tr><td>Heading: 185.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393336</longitude>
+              <latitude>40.204789</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393336,40.204789</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT384</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393340 </td></tr>
+<tr><td>Latitude: 40.204761 </td></tr>
+<tr><td>Heading: 185.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393340</longitude>
+              <latitude>40.204761</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393340,40.204761</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT399</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393343 </td></tr>
+<tr><td>Latitude: 40.204733 </td></tr>
+<tr><td>Heading: 184.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393343</longitude>
+              <latitude>40.204733</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393343,40.204733</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT414</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393345 </td></tr>
+<tr><td>Latitude: 40.204705 </td></tr>
+<tr><td>Heading: 184.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393345</longitude>
+              <latitude>40.204705</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393345,40.204705</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT429</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393347 </td></tr>
+<tr><td>Latitude: 40.204676 </td></tr>
+<tr><td>Heading: 181.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393347</longitude>
+              <latitude>40.204676</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393347,40.204676</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT443</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393351 </td></tr>
+<tr><td>Latitude: 40.204648 </td></tr>
+<tr><td>Heading: 187.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393351</longitude>
+              <latitude>40.204648</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393351,40.204648</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT458</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393353 </td></tr>
+<tr><td>Latitude: 40.204619 </td></tr>
+<tr><td>Heading: 183.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393353</longitude>
+              <latitude>40.204619</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393353,40.204619</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT473</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393355 </td></tr>
+<tr><td>Latitude: 40.204590 </td></tr>
+<tr><td>Heading: 182.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393355</longitude>
+              <latitude>40.204590</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393355,40.204590</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT488</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393357 </td></tr>
+<tr><td>Latitude: 40.204561 </td></tr>
+<tr><td>Heading: 182.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393357</longitude>
+              <latitude>40.204561</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393357,40.204561</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT503</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393354 </td></tr>
+<tr><td>Latitude: 40.204532 </td></tr>
+<tr><td>Heading: 176.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393354</longitude>
+              <latitude>40.204532</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393354,40.204532</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT518</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393356 </td></tr>
+<tr><td>Latitude: 40.204503 </td></tr>
+<tr><td>Heading: 182.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393356</longitude>
+              <latitude>40.204503</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393356,40.204503</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT533</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393358 </td></tr>
+<tr><td>Latitude: 40.204475 </td></tr>
+<tr><td>Heading: 183.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393358</longitude>
+              <latitude>40.204475</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393358,40.204475</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT548</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393358 </td></tr>
+<tr><td>Latitude: 40.204446 </td></tr>
+<tr><td>Heading: 179.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393358</longitude>
+              <latitude>40.204446</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393358,40.204446</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT563</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393356 </td></tr>
+<tr><td>Latitude: 40.204417 </td></tr>
+<tr><td>Heading: 177.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393356</longitude>
+              <latitude>40.204417</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393356,40.204417</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT578</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393355 </td></tr>
+<tr><td>Latitude: 40.204389 </td></tr>
+<tr><td>Heading: 177.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393355</longitude>
+              <latitude>40.204389</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393355,40.204389</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT593</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393356 </td></tr>
+<tr><td>Latitude: 40.204360 </td></tr>
+<tr><td>Heading: 182.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393356</longitude>
+              <latitude>40.204360</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393356,40.204360</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT608</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393358 </td></tr>
+<tr><td>Latitude: 40.204332 </td></tr>
+<tr><td>Heading: 182.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393358</longitude>
+              <latitude>40.204332</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393358,40.204332</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT623</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393357 </td></tr>
+<tr><td>Latitude: 40.204304 </td></tr>
+<tr><td>Heading: 179.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393357</longitude>
+              <latitude>40.204304</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393357,40.204304</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT638</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393354 </td></tr>
+<tr><td>Latitude: 40.204277 </td></tr>
+<tr><td>Heading: 175.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393354</longitude>
+              <latitude>40.204277</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393354,40.204277</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT654</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393348 </td></tr>
+<tr><td>Latitude: 40.204248 </td></tr>
+<tr><td>Heading: 170.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393348</longitude>
+              <latitude>40.204248</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393348,40.204248</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT670</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393349 </td></tr>
+<tr><td>Latitude: 40.204220 </td></tr>
+<tr><td>Heading: 180.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393349</longitude>
+              <latitude>40.204220</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393349,40.204220</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT686</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393342 </td></tr>
+<tr><td>Latitude: 40.204192 </td></tr>
+<tr><td>Heading: 170.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393342</longitude>
+              <latitude>40.204192</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393342,40.204192</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT702</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393335 </td></tr>
+<tr><td>Latitude: 40.204164 </td></tr>
+<tr><td>Heading: 169.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393335</longitude>
+              <latitude>40.204164</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393335,40.204164</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT718</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393331 </td></tr>
+<tr><td>Latitude: 40.204136 </td></tr>
+<tr><td>Heading: 172.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393331</longitude>
+              <latitude>40.204136</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393331,40.204136</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT736</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393321 </td></tr>
+<tr><td>Latitude: 40.204109 </td></tr>
+<tr><td>Heading: 164.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393321</longitude>
+              <latitude>40.204109</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393321,40.204109</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT754</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393312 </td></tr>
+<tr><td>Latitude: 40.204082 </td></tr>
+<tr><td>Heading: 165.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393312</longitude>
+              <latitude>40.204082</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393312,40.204082</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT773</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393302 </td></tr>
+<tr><td>Latitude: 40.204055 </td></tr>
+<tr><td>Heading: 165.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393302</longitude>
+              <latitude>40.204055</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393302,40.204055</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT793</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393290 </td></tr>
+<tr><td>Latitude: 40.204029 </td></tr>
+<tr><td>Heading: 160.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393290</longitude>
+              <latitude>40.204029</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393290,40.204029</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT813</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393276 </td></tr>
+<tr><td>Latitude: 40.204003 </td></tr>
+<tr><td>Heading: 157.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393276</longitude>
+              <latitude>40.204003</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393276,40.204003</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT834</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393256 </td></tr>
+<tr><td>Latitude: 40.203979 </td></tr>
+<tr><td>Heading: 148.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393256</longitude>
+              <latitude>40.203979</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393256,40.203979</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT854</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393233 </td></tr>
+<tr><td>Latitude: 40.203957 </td></tr>
+<tr><td>Heading: 141.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393233</longitude>
+              <latitude>40.203957</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393233,40.203957</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT874</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393208 </td></tr>
+<tr><td>Latitude: 40.203936 </td></tr>
+<tr><td>Heading: 135.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393208</longitude>
+              <latitude>40.203936</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393208,40.203936</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT894</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393179 </td></tr>
+<tr><td>Latitude: 40.203918 </td></tr>
+<tr><td>Heading: 129.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393179</longitude>
+              <latitude>40.203918</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393179,40.203918</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT913</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393149 </td></tr>
+<tr><td>Latitude: 40.203903 </td></tr>
+<tr><td>Heading: 123.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393149</longitude>
+              <latitude>40.203903</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393149,40.203903</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT933</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393115 </td></tr>
+<tr><td>Latitude: 40.203890 </td></tr>
+<tr><td>Heading: 117.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393115</longitude>
+              <latitude>40.203890</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393115,40.203890</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT953</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393080 </td></tr>
+<tr><td>Latitude: 40.203880 </td></tr>
+<tr><td>Heading: 110.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393080</longitude>
+              <latitude>40.203880</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393080,40.203880</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT973</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393044 </td></tr>
+<tr><td>Latitude: 40.203873 </td></tr>
+<tr><td>Heading: 104.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393044</longitude>
+              <latitude>40.203873</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393044,40.203873</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT992</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393008 </td></tr>
+<tr><td>Latitude: 40.203869 </td></tr>
+<tr><td>Heading: 97.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393008</longitude>
+              <latitude>40.203869</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393008,40.203869</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1011</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392971 </td></tr>
+<tr><td>Latitude: 40.203867 </td></tr>
+<tr><td>Heading: 94.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392971</longitude>
+              <latitude>40.203867</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392971,40.203867</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1030</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392934 </td></tr>
+<tr><td>Latitude: 40.203867 </td></tr>
+<tr><td>Heading: 90.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392934</longitude>
+              <latitude>40.203867</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392934,40.203867</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1048</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392897 </td></tr>
+<tr><td>Latitude: 40.203867 </td></tr>
+<tr><td>Heading: 88.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392897</longitude>
+              <latitude>40.203867</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392897,40.203867</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1065</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392860 </td></tr>
+<tr><td>Latitude: 40.203868 </td></tr>
+<tr><td>Heading: 88.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392860</longitude>
+              <latitude>40.203868</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392860,40.203868</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1082</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392822 </td></tr>
+<tr><td>Latitude: 40.203868 </td></tr>
+<tr><td>Heading: 89.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392822</longitude>
+              <latitude>40.203868</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392822,40.203868</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1098</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392786 </td></tr>
+<tr><td>Latitude: 40.203870 </td></tr>
+<tr><td>Heading: 87.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392786</longitude>
+              <latitude>40.203870</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392786,40.203870</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1114</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392748 </td></tr>
+<tr><td>Latitude: 40.203865 </td></tr>
+<tr><td>Heading: 99.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392748</longitude>
+              <latitude>40.203865</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392748,40.203865</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1129</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392712 </td></tr>
+<tr><td>Latitude: 40.203865 </td></tr>
+<tr><td>Heading: 88.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392712</longitude>
+              <latitude>40.203865</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392712,40.203865</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1144</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392675 </td></tr>
+<tr><td>Latitude: 40.203867 </td></tr>
+<tr><td>Heading: 86.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392675</longitude>
+              <latitude>40.203867</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392675,40.203867</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1158</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392639 </td></tr>
+<tr><td>Latitude: 40.203868 </td></tr>
+<tr><td>Heading: 88.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392639</longitude>
+              <latitude>40.203868</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392639,40.203868</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1172</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392602 </td></tr>
+<tr><td>Latitude: 40.203867 </td></tr>
+<tr><td>Heading: 91.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392602</longitude>
+              <latitude>40.203867</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392602,40.203867</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1186</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392565 </td></tr>
+<tr><td>Latitude: 40.203869 </td></tr>
+<tr><td>Heading: 84.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392565</longitude>
+              <latitude>40.203869</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392565,40.203869</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1200</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392528 </td></tr>
+<tr><td>Latitude: 40.203870 </td></tr>
+<tr><td>Heading: 89.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392528</longitude>
+              <latitude>40.203870</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392528,40.203870</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1214</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392490 </td></tr>
+<tr><td>Latitude: 40.203872 </td></tr>
+<tr><td>Heading: 85.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392490</longitude>
+              <latitude>40.203872</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392490,40.203872</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1227</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392453 </td></tr>
+<tr><td>Latitude: 40.203872 </td></tr>
+<tr><td>Heading: 89.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392453</longitude>
+              <latitude>40.203872</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392453,40.203872</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1240</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392416 </td></tr>
+<tr><td>Latitude: 40.203874 </td></tr>
+<tr><td>Heading: 86.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392416</longitude>
+              <latitude>40.203874</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392416,40.203874</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1253</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392379 </td></tr>
+<tr><td>Latitude: 40.203876 </td></tr>
+<tr><td>Heading: 86.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392379</longitude>
+              <latitude>40.203876</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392379,40.203876</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1266</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392342 </td></tr>
+<tr><td>Latitude: 40.203874 </td></tr>
+<tr><td>Heading: 92.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392342</longitude>
+              <latitude>40.203874</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392342,40.203874</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1278</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392306 </td></tr>
+<tr><td>Latitude: 40.203870 </td></tr>
+<tr><td>Heading: 99.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392306</longitude>
+              <latitude>40.203870</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392306,40.203870</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1291</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392268 </td></tr>
+<tr><td>Latitude: 40.203871 </td></tr>
+<tr><td>Heading: 86.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392268</longitude>
+              <latitude>40.203871</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392268,40.203871</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1303</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392232 </td></tr>
+<tr><td>Latitude: 40.203873 </td></tr>
+<tr><td>Heading: 87.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392232</longitude>
+              <latitude>40.203873</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392232,40.203873</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1315</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392195 </td></tr>
+<tr><td>Latitude: 40.203874 </td></tr>
+<tr><td>Heading: 87.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392195</longitude>
+              <latitude>40.203874</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392195,40.203874</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1327</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392158 </td></tr>
+<tr><td>Latitude: 40.203875 </td></tr>
+<tr><td>Heading: 88.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392158</longitude>
+              <latitude>40.203875</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392158,40.203875</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1339</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392121 </td></tr>
+<tr><td>Latitude: 40.203874 </td></tr>
+<tr><td>Heading: 92.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392121</longitude>
+              <latitude>40.203874</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392121,40.203874</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1351</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392083 </td></tr>
+<tr><td>Latitude: 40.203875 </td></tr>
+<tr><td>Heading: 87.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392083</longitude>
+              <latitude>40.203875</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392083,40.203875</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1363</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392045 </td></tr>
+<tr><td>Latitude: 40.203876 </td></tr>
+<tr><td>Heading: 87.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392045</longitude>
+              <latitude>40.203876</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392045,40.203876</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1375</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392006 </td></tr>
+<tr><td>Latitude: 40.203877 </td></tr>
+<tr><td>Heading: 87.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392006</longitude>
+              <latitude>40.203877</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392006,40.203877</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1386</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391970 </td></tr>
+<tr><td>Latitude: 40.203875 </td></tr>
+<tr><td>Heading: 94.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391970</longitude>
+              <latitude>40.203875</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391970,40.203875</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1398</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391931 </td></tr>
+<tr><td>Latitude: 40.203875 </td></tr>
+<tr><td>Heading: 90.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391931</longitude>
+              <latitude>40.203875</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391931,40.203875</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1409</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391894 </td></tr>
+<tr><td>Latitude: 40.203874 </td></tr>
+<tr><td>Heading: 92.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391894</longitude>
+              <latitude>40.203874</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391894,40.203874</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1420</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391857 </td></tr>
+<tr><td>Latitude: 40.203875 </td></tr>
+<tr><td>Heading: 87.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391857</longitude>
+              <latitude>40.203875</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391857,40.203875</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1431</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391820 </td></tr>
+<tr><td>Latitude: 40.203876 </td></tr>
+<tr><td>Heading: 87.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391820</longitude>
+              <latitude>40.203876</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391820,40.203876</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1442</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391782 </td></tr>
+<tr><td>Latitude: 40.203878 </td></tr>
+<tr><td>Heading: 87.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391782</longitude>
+              <latitude>40.203878</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391782,40.203878</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1453</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391744 </td></tr>
+<tr><td>Latitude: 40.203879 </td></tr>
+<tr><td>Heading: 87.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391744</longitude>
+              <latitude>40.203879</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391744,40.203879</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1464</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391705 </td></tr>
+<tr><td>Latitude: 40.203880 </td></tr>
+<tr><td>Heading: 88.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391705</longitude>
+              <latitude>40.203880</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391705,40.203880</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1475</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391667 </td></tr>
+<tr><td>Latitude: 40.203882 </td></tr>
+<tr><td>Heading: 86.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391667</longitude>
+              <latitude>40.203882</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391667,40.203882</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1486</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391628 </td></tr>
+<tr><td>Latitude: 40.203883 </td></tr>
+<tr><td>Heading: 87.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391628</longitude>
+              <latitude>40.203883</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391628,40.203883</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1497</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391590 </td></tr>
+<tr><td>Latitude: 40.203884 </td></tr>
+<tr><td>Heading: 87.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391590</longitude>
+              <latitude>40.203884</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391590,40.203884</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1508</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391551 </td></tr>
+<tr><td>Latitude: 40.203885 </td></tr>
+<tr><td>Heading: 88.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391551</longitude>
+              <latitude>40.203885</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391551,40.203885</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1518</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391515 </td></tr>
+<tr><td>Latitude: 40.203886 </td></tr>
+<tr><td>Heading: 88.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391515</longitude>
+              <latitude>40.203886</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391515,40.203886</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1529</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391476 </td></tr>
+<tr><td>Latitude: 40.203885 </td></tr>
+<tr><td>Heading: 92.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391476</longitude>
+              <latitude>40.203885</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391476,40.203885</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1540</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391438 </td></tr>
+<tr><td>Latitude: 40.203886 </td></tr>
+<tr><td>Heading: 87.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391438</longitude>
+              <latitude>40.203886</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391438,40.203886</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1551</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391399 </td></tr>
+<tr><td>Latitude: 40.203887 </td></tr>
+<tr><td>Heading: 87.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391399</longitude>
+              <latitude>40.203887</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391399,40.203887</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1562</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391360 </td></tr>
+<tr><td>Latitude: 40.203887 </td></tr>
+<tr><td>Heading: 90.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391360</longitude>
+              <latitude>40.203887</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391360,40.203887</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1573</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391321 </td></tr>
+<tr><td>Latitude: 40.203886 </td></tr>
+<tr><td>Heading: 92.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391321</longitude>
+              <latitude>40.203886</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391321,40.203886</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1584</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391282 </td></tr>
+<tr><td>Latitude: 40.203886 </td></tr>
+<tr><td>Heading: 90.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391282</longitude>
+              <latitude>40.203886</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391282,40.203886</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1595</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391242 </td></tr>
+<tr><td>Latitude: 40.203885 </td></tr>
+<tr><td>Heading: 91.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391242</longitude>
+              <latitude>40.203885</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391242,40.203885</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1606</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391203 </td></tr>
+<tr><td>Latitude: 40.203884 </td></tr>
+<tr><td>Heading: 92.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391203</longitude>
+              <latitude>40.203884</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391203,40.203884</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1617</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391164 </td></tr>
+<tr><td>Latitude: 40.203884 </td></tr>
+<tr><td>Heading: 89.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391164</longitude>
+              <latitude>40.203884</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391164,40.203884</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1628</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391125 </td></tr>
+<tr><td>Latitude: 40.203883 </td></tr>
+<tr><td>Heading: 92.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391125</longitude>
+              <latitude>40.203883</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391125,40.203883</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1639</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391086 </td></tr>
+<tr><td>Latitude: 40.203882 </td></tr>
+<tr><td>Heading: 91.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391086</longitude>
+              <latitude>40.203882</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391086,40.203882</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1650</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391047 </td></tr>
+<tr><td>Latitude: 40.203881 </td></tr>
+<tr><td>Heading: 91.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391047</longitude>
+              <latitude>40.203881</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391047,40.203881</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1661</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391007 </td></tr>
+<tr><td>Latitude: 40.203882 </td></tr>
+<tr><td>Heading: 87.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391007</longitude>
+              <latitude>40.203882</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391007,40.203882</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1672</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390968 </td></tr>
+<tr><td>Latitude: 40.203884 </td></tr>
+<tr><td>Heading: 87.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390968</longitude>
+              <latitude>40.203884</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390968,40.203884</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1683</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390929 </td></tr>
+<tr><td>Latitude: 40.203885 </td></tr>
+<tr><td>Heading: 88.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390929</longitude>
+              <latitude>40.203885</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390929,40.203885</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1694</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390889 </td></tr>
+<tr><td>Latitude: 40.203885 </td></tr>
+<tr><td>Heading: 88.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390889</longitude>
+              <latitude>40.203885</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390889,40.203885</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1705</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390850 </td></tr>
+<tr><td>Latitude: 40.203885 </td></tr>
+<tr><td>Heading: 90.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390850</longitude>
+              <latitude>40.203885</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390850,40.203885</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1715</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390814 </td></tr>
+<tr><td>Latitude: 40.203886 </td></tr>
+<tr><td>Heading: 88.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390814</longitude>
+              <latitude>40.203886</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390814,40.203886</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1725</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390778 </td></tr>
+<tr><td>Latitude: 40.203886 </td></tr>
+<tr><td>Heading: 88.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390778</longitude>
+              <latitude>40.203886</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390778,40.203886</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1735</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390742 </td></tr>
+<tr><td>Latitude: 40.203887 </td></tr>
+<tr><td>Heading: 89.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390742</longitude>
+              <latitude>40.203887</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390742,40.203887</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1745</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390706 </td></tr>
+<tr><td>Latitude: 40.203887 </td></tr>
+<tr><td>Heading: 89.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390706</longitude>
+              <latitude>40.203887</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390706,40.203887</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1756</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390667 </td></tr>
+<tr><td>Latitude: 40.203885 </td></tr>
+<tr><td>Heading: 93.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390667</longitude>
+              <latitude>40.203885</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390667,40.203885</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1766</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390631 </td></tr>
+<tr><td>Latitude: 40.203885 </td></tr>
+<tr><td>Heading: 89.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390631</longitude>
+              <latitude>40.203885</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390631,40.203885</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1777</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390592 </td></tr>
+<tr><td>Latitude: 40.203886 </td></tr>
+<tr><td>Heading: 89.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390592</longitude>
+              <latitude>40.203886</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390592,40.203886</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1788</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390552 </td></tr>
+<tr><td>Latitude: 40.203886 </td></tr>
+<tr><td>Heading: 89.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390552</longitude>
+              <latitude>40.203886</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390552,40.203886</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1799</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390514 </td></tr>
+<tr><td>Latitude: 40.203887 </td></tr>
+<tr><td>Heading: 88.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390514</longitude>
+              <latitude>40.203887</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390514,40.203887</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1810</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390475 </td></tr>
+<tr><td>Latitude: 40.203887 </td></tr>
+<tr><td>Heading: 89.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390475</longitude>
+              <latitude>40.203887</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390475,40.203887</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1821</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390436 </td></tr>
+<tr><td>Latitude: 40.203887 </td></tr>
+<tr><td>Heading: 89.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390436</longitude>
+              <latitude>40.203887</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390436,40.203887</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1832</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390397 </td></tr>
+<tr><td>Latitude: 40.203886 </td></tr>
+<tr><td>Heading: 92.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390397</longitude>
+              <latitude>40.203886</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390397,40.203886</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1842</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390361 </td></tr>
+<tr><td>Latitude: 40.203885 </td></tr>
+<tr><td>Heading: 90.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390361</longitude>
+              <latitude>40.203885</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390361,40.203885</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1853</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390322 </td></tr>
+<tr><td>Latitude: 40.203885 </td></tr>
+<tr><td>Heading: 89.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390322</longitude>
+              <latitude>40.203885</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390322,40.203885</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1864</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390284 </td></tr>
+<tr><td>Latitude: 40.203886 </td></tr>
+<tr><td>Heading: 89.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390284</longitude>
+              <latitude>40.203886</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390284,40.203886</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1875</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390246 </td></tr>
+<tr><td>Latitude: 40.203887 </td></tr>
+<tr><td>Heading: 87.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390246</longitude>
+              <latitude>40.203887</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390246,40.203887</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1886</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390209 </td></tr>
+<tr><td>Latitude: 40.203887 </td></tr>
+<tr><td>Heading: 89.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390209</longitude>
+              <latitude>40.203887</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390209,40.203887</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1897</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390172 </td></tr>
+<tr><td>Latitude: 40.203885 </td></tr>
+<tr><td>Heading: 95.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390172</longitude>
+              <latitude>40.203885</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390172,40.203885</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1908</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390135 </td></tr>
+<tr><td>Latitude: 40.203884 </td></tr>
+<tr><td>Heading: 90.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390135</longitude>
+              <latitude>40.203884</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390135,40.203884</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1919</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390099 </td></tr>
+<tr><td>Latitude: 40.203885 </td></tr>
+<tr><td>Heading: 89.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390099</longitude>
+              <latitude>40.203885</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390099,40.203885</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1931</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390060 </td></tr>
+<tr><td>Latitude: 40.203885 </td></tr>
+<tr><td>Heading: 88.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390060</longitude>
+              <latitude>40.203885</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390060,40.203885</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1943</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390022 </td></tr>
+<tr><td>Latitude: 40.203886 </td></tr>
+<tr><td>Heading: 88.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390022</longitude>
+              <latitude>40.203886</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390022,40.203886</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1955</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389984 </td></tr>
+<tr><td>Latitude: 40.203887 </td></tr>
+<tr><td>Heading: 87.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389984</longitude>
+              <latitude>40.203887</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389984,40.203887</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1967</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389948 </td></tr>
+<tr><td>Latitude: 40.203889 </td></tr>
+<tr><td>Heading: 87.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389948</longitude>
+              <latitude>40.203889</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389948,40.203889</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1980</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389909 </td></tr>
+<tr><td>Latitude: 40.203891 </td></tr>
+<tr><td>Heading: 86.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389909</longitude>
+              <latitude>40.203891</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389909,40.203891</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT1993</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389873 </td></tr>
+<tr><td>Latitude: 40.203893 </td></tr>
+<tr><td>Heading: 85.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389873</longitude>
+              <latitude>40.203893</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389873,40.203893</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2007</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389835 </td></tr>
+<tr><td>Latitude: 40.203896 </td></tr>
+<tr><td>Heading: 83.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389835</longitude>
+              <latitude>40.203896</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389835,40.203896</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2021</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389800 </td></tr>
+<tr><td>Latitude: 40.203901 </td></tr>
+<tr><td>Heading: 80.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389800</longitude>
+              <latitude>40.203901</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389800,40.203901</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2036</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389762 </td></tr>
+<tr><td>Latitude: 40.203905 </td></tr>
+<tr><td>Heading: 82.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389762</longitude>
+              <latitude>40.203905</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389762,40.203905</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2051</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389725 </td></tr>
+<tr><td>Latitude: 40.203910 </td></tr>
+<tr><td>Heading: 78.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389725</longitude>
+              <latitude>40.203910</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389725,40.203910</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2066</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389690 </td></tr>
+<tr><td>Latitude: 40.203918 </td></tr>
+<tr><td>Heading: 74.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389690</longitude>
+              <latitude>40.203918</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389690,40.203918</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2082</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389655 </td></tr>
+<tr><td>Latitude: 40.203928 </td></tr>
+<tr><td>Heading: 69.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389655</longitude>
+              <latitude>40.203928</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389655,40.203928</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2098</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389621 </td></tr>
+<tr><td>Latitude: 40.203938 </td></tr>
+<tr><td>Heading: 68.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389621</longitude>
+              <latitude>40.203938</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389621,40.203938</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2115</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389586 </td></tr>
+<tr><td>Latitude: 40.203950 </td></tr>
+<tr><td>Heading: 66.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389586</longitude>
+              <latitude>40.203950</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389586,40.203950</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2133</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389553 </td></tr>
+<tr><td>Latitude: 40.203964 </td></tr>
+<tr><td>Heading: 60.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389553</longitude>
+              <latitude>40.203964</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389553,40.203964</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2151</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389522 </td></tr>
+<tr><td>Latitude: 40.203979 </td></tr>
+<tr><td>Heading: 57.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389522</longitude>
+              <latitude>40.203979</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389522,40.203979</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2170</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389494 </td></tr>
+<tr><td>Latitude: 40.203998 </td></tr>
+<tr><td>Heading: 49.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389494</longitude>
+              <latitude>40.203998</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389494,40.203998</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2190</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389464 </td></tr>
+<tr><td>Latitude: 40.204015 </td></tr>
+<tr><td>Heading: 51.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389464</longitude>
+              <latitude>40.204015</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389464,40.204015</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2211</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389440 </td></tr>
+<tr><td>Latitude: 40.204037 </td></tr>
+<tr><td>Heading: 41.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389440</longitude>
+              <latitude>40.204037</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389440,40.204037</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2235</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389415 </td></tr>
+<tr><td>Latitude: 40.204057 </td></tr>
+<tr><td>Heading: 42.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389415</longitude>
+              <latitude>40.204057</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389415,40.204057</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2260</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389388 </td></tr>
+<tr><td>Latitude: 40.204076 </td></tr>
+<tr><td>Heading: 48.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389388</longitude>
+              <latitude>40.204076</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389388,40.204076</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2288</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389363 </td></tr>
+<tr><td>Latitude: 40.204096 </td></tr>
+<tr><td>Heading: 42.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389363</longitude>
+              <latitude>40.204096</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389363,40.204096</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2320</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389338 </td></tr>
+<tr><td>Latitude: 40.204116 </td></tr>
+<tr><td>Heading: 44.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389338</longitude>
+              <latitude>40.204116</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389338,40.204116</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2356</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389310 </td></tr>
+<tr><td>Latitude: 40.204134 </td></tr>
+<tr><td>Heading: 49.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389310</longitude>
+              <latitude>40.204134</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389310,40.204134</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2394</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389282 </td></tr>
+<tr><td>Latitude: 40.204152 </td></tr>
+<tr><td>Heading: 50.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389282</longitude>
+              <latitude>40.204152</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389282,40.204152</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2434</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389259 </td></tr>
+<tr><td>Latitude: 40.204173 </td></tr>
+<tr><td>Heading: 39.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389259</longitude>
+              <latitude>40.204173</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389259,40.204173</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2473</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389242 </td></tr>
+<tr><td>Latitude: 40.204198 </td></tr>
+<tr><td>Heading: 28.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389242</longitude>
+              <latitude>40.204198</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389242,40.204198</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2509</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389232 </td></tr>
+<tr><td>Latitude: 40.204224 </td></tr>
+<tr><td>Heading: 15.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389232</longitude>
+              <latitude>40.204224</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389232,40.204224</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2539</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389238 </td></tr>
+<tr><td>Latitude: 40.204251 </td></tr>
+<tr><td>Heading: 351.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389238</longitude>
+              <latitude>40.204251</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389238,40.204251</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2567</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389240 </td></tr>
+<tr><td>Latitude: 40.204279 </td></tr>
+<tr><td>Heading: 356.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389240</longitude>
+              <latitude>40.204279</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389240,40.204279</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2591</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389246 </td></tr>
+<tr><td>Latitude: 40.204307 </td></tr>
+<tr><td>Heading: 349.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389246</longitude>
+              <latitude>40.204307</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389246,40.204307</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2613</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389254 </td></tr>
+<tr><td>Latitude: 40.204333 </td></tr>
+<tr><td>Heading: 348.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389254</longitude>
+              <latitude>40.204333</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389254,40.204333</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2634</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389261 </td></tr>
+<tr><td>Latitude: 40.204360 </td></tr>
+<tr><td>Heading: 347.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389261</longitude>
+              <latitude>40.204360</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389261,40.204360</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2655</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389272 </td></tr>
+<tr><td>Latitude: 40.204388 </td></tr>
+<tr><td>Heading: 344.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389272</longitude>
+              <latitude>40.204388</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389272,40.204388</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2675</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389283 </td></tr>
+<tr><td>Latitude: 40.204415 </td></tr>
+<tr><td>Heading: 341.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389283</longitude>
+              <latitude>40.204415</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389283,40.204415</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2695</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389297 </td></tr>
+<tr><td>Latitude: 40.204441 </td></tr>
+<tr><td>Heading: 338.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389297</longitude>
+              <latitude>40.204441</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389297,40.204441</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2714</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389314 </td></tr>
+<tr><td>Latitude: 40.204466 </td></tr>
+<tr><td>Heading: 333.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389314</longitude>
+              <latitude>40.204466</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389314,40.204466</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2732</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389336 </td></tr>
+<tr><td>Latitude: 40.204488 </td></tr>
+<tr><td>Heading: 322.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389336</longitude>
+              <latitude>40.204488</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389336,40.204488</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2750</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389354 </td></tr>
+<tr><td>Latitude: 40.204513 </td></tr>
+<tr><td>Heading: 330.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389354</longitude>
+              <latitude>40.204513</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389354,40.204513</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2768</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389378 </td></tr>
+<tr><td>Latitude: 40.204534 </td></tr>
+<tr><td>Heading: 319.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389378</longitude>
+              <latitude>40.204534</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389378,40.204534</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2786</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389403 </td></tr>
+<tr><td>Latitude: 40.204554 </td></tr>
+<tr><td>Heading: 316.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389403</longitude>
+              <latitude>40.204554</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389403,40.204554</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2804</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389430 </td></tr>
+<tr><td>Latitude: 40.204574 </td></tr>
+<tr><td>Heading: 313.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389430</longitude>
+              <latitude>40.204574</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389430,40.204574</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2821</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389457 </td></tr>
+<tr><td>Latitude: 40.204592 </td></tr>
+<tr><td>Heading: 311.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389457</longitude>
+              <latitude>40.204592</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389457,40.204592</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2838</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389487 </td></tr>
+<tr><td>Latitude: 40.204609 </td></tr>
+<tr><td>Heading: 305.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389487</longitude>
+              <latitude>40.204609</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389487,40.204609</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2855</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389517 </td></tr>
+<tr><td>Latitude: 40.204627 </td></tr>
+<tr><td>Heading: 308.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389517</longitude>
+              <latitude>40.204627</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389517,40.204627</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2872</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389547 </td></tr>
+<tr><td>Latitude: 40.204644 </td></tr>
+<tr><td>Heading: 306.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389547</longitude>
+              <latitude>40.204644</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389547,40.204644</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2888</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389576 </td></tr>
+<tr><td>Latitude: 40.204660 </td></tr>
+<tr><td>Heading: 305.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389576</longitude>
+              <latitude>40.204660</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389576,40.204660</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2904</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389606 </td></tr>
+<tr><td>Latitude: 40.204676 </td></tr>
+<tr><td>Heading: 305.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389606</longitude>
+              <latitude>40.204676</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389606,40.204676</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2920</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389636 </td></tr>
+<tr><td>Latitude: 40.204691 </td></tr>
+<tr><td>Heading: 303.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389636</longitude>
+              <latitude>40.204691</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389636,40.204691</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2936</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389667 </td></tr>
+<tr><td>Latitude: 40.204707 </td></tr>
+<tr><td>Heading: 305.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389667</longitude>
+              <latitude>40.204707</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389667,40.204707</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2952</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389698 </td></tr>
+<tr><td>Latitude: 40.204723 </td></tr>
+<tr><td>Heading: 303.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389698</longitude>
+              <latitude>40.204723</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389698,40.204723</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2968</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389730 </td></tr>
+<tr><td>Latitude: 40.204739 </td></tr>
+<tr><td>Heading: 302.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389730</longitude>
+              <latitude>40.204739</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389730,40.204739</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2984</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389762 </td></tr>
+<tr><td>Latitude: 40.204754 </td></tr>
+<tr><td>Heading: 302.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389762</longitude>
+              <latitude>40.204754</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389762,40.204754</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT2999</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389794 </td></tr>
+<tr><td>Latitude: 40.204768 </td></tr>
+<tr><td>Heading: 299.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389794</longitude>
+              <latitude>40.204768</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389794,40.204768</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3015</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389827 </td></tr>
+<tr><td>Latitude: 40.204781 </td></tr>
+<tr><td>Heading: 297.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389827</longitude>
+              <latitude>40.204781</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389827,40.204781</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3030</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389860 </td></tr>
+<tr><td>Latitude: 40.204795 </td></tr>
+<tr><td>Heading: 298.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389860</longitude>
+              <latitude>40.204795</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389860,40.204795</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3045</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389894 </td></tr>
+<tr><td>Latitude: 40.204806 </td></tr>
+<tr><td>Heading: 293.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389894</longitude>
+              <latitude>40.204806</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389894,40.204806</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3060</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389930 </td></tr>
+<tr><td>Latitude: 40.204817 </td></tr>
+<tr><td>Heading: 290.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389930</longitude>
+              <latitude>40.204817</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389930,40.204817</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3074</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389960 </td></tr>
+<tr><td>Latitude: 40.204832 </td></tr>
+<tr><td>Heading: 303.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389960</longitude>
+              <latitude>40.204832</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389960,40.204832</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3088</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.389994 </td></tr>
+<tr><td>Latitude: 40.204842 </td></tr>
+<tr><td>Heading: 291.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.389994</longitude>
+              <latitude>40.204842</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.389994,40.204842</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3102</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390024 </td></tr>
+<tr><td>Latitude: 40.204857 </td></tr>
+<tr><td>Heading: 303.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390024</longitude>
+              <latitude>40.204857</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390024,40.204857</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3116</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390055 </td></tr>
+<tr><td>Latitude: 40.204873 </td></tr>
+<tr><td>Heading: 303.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390055</longitude>
+              <latitude>40.204873</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390055,40.204873</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3130</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390085 </td></tr>
+<tr><td>Latitude: 40.204887 </td></tr>
+<tr><td>Heading: 302.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390085</longitude>
+              <latitude>40.204887</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390085,40.204887</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3144</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390118 </td></tr>
+<tr><td>Latitude: 40.204901 </td></tr>
+<tr><td>Heading: 298.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390118</longitude>
+              <latitude>40.204901</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390118,40.204901</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3158</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390149 </td></tr>
+<tr><td>Latitude: 40.204916 </td></tr>
+<tr><td>Heading: 302.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390149</longitude>
+              <latitude>40.204916</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390149,40.204916</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3172</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390179 </td></tr>
+<tr><td>Latitude: 40.204931 </td></tr>
+<tr><td>Heading: 302.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390179</longitude>
+              <latitude>40.204931</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390179,40.204931</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3186</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390210 </td></tr>
+<tr><td>Latitude: 40.204947 </td></tr>
+<tr><td>Heading: 303.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390210</longitude>
+              <latitude>40.204947</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390210,40.204947</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3200</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390241 </td></tr>
+<tr><td>Latitude: 40.204962 </td></tr>
+<tr><td>Heading: 303.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390241</longitude>
+              <latitude>40.204962</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390241,40.204962</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3214</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390272 </td></tr>
+<tr><td>Latitude: 40.204976 </td></tr>
+<tr><td>Heading: 301.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390272</longitude>
+              <latitude>40.204976</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390272,40.204976</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3228</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390302 </td></tr>
+<tr><td>Latitude: 40.204992 </td></tr>
+<tr><td>Heading: 303.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390302</longitude>
+              <latitude>40.204992</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390302,40.204992</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3242</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390332 </td></tr>
+<tr><td>Latitude: 40.205007 </td></tr>
+<tr><td>Heading: 303.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390332</longitude>
+              <latitude>40.205007</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390332,40.205007</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3257</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390363 </td></tr>
+<tr><td>Latitude: 40.205024 </td></tr>
+<tr><td>Heading: 305.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390363</longitude>
+              <latitude>40.205024</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390363,40.205024</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3272</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390393 </td></tr>
+<tr><td>Latitude: 40.205040 </td></tr>
+<tr><td>Heading: 305.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390393</longitude>
+              <latitude>40.205040</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390393,40.205040</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3286</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390423 </td></tr>
+<tr><td>Latitude: 40.205058 </td></tr>
+<tr><td>Heading: 307.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390423</longitude>
+              <latitude>40.205058</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390423,40.205058</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3301</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390455 </td></tr>
+<tr><td>Latitude: 40.205073 </td></tr>
+<tr><td>Heading: 301.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390455</longitude>
+              <latitude>40.205073</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390455,40.205073</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3316</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390486 </td></tr>
+<tr><td>Latitude: 40.205088 </td></tr>
+<tr><td>Heading: 302.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390486</longitude>
+              <latitude>40.205088</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390486,40.205088</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3331</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390518 </td></tr>
+<tr><td>Latitude: 40.205102 </td></tr>
+<tr><td>Heading: 300.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390518</longitude>
+              <latitude>40.205102</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390518,40.205102</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3347</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390549 </td></tr>
+<tr><td>Latitude: 40.205117 </td></tr>
+<tr><td>Heading: 302.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390549</longitude>
+              <latitude>40.205117</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390549,40.205117</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3363</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390581 </td></tr>
+<tr><td>Latitude: 40.205133 </td></tr>
+<tr><td>Heading: 303.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390581</longitude>
+              <latitude>40.205133</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390581,40.205133</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3379</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390612 </td></tr>
+<tr><td>Latitude: 40.205148 </td></tr>
+<tr><td>Heading: 302.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390612</longitude>
+              <latitude>40.205148</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390612,40.205148</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3395</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390644 </td></tr>
+<tr><td>Latitude: 40.205163 </td></tr>
+<tr><td>Heading: 301.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390644</longitude>
+              <latitude>40.205163</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390644,40.205163</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3411</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390676 </td></tr>
+<tr><td>Latitude: 40.205177 </td></tr>
+<tr><td>Heading: 299.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390676</longitude>
+              <latitude>40.205177</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390676,40.205177</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3427</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390709 </td></tr>
+<tr><td>Latitude: 40.205190 </td></tr>
+<tr><td>Heading: 297.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390709</longitude>
+              <latitude>40.205190</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390709,40.205190</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3443</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390743 </td></tr>
+<tr><td>Latitude: 40.205203 </td></tr>
+<tr><td>Heading: 295.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390743</longitude>
+              <latitude>40.205203</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390743,40.205203</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3459</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390776 </td></tr>
+<tr><td>Latitude: 40.205215 </td></tr>
+<tr><td>Heading: 296.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390776</longitude>
+              <latitude>40.205215</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390776,40.205215</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3475</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390812 </td></tr>
+<tr><td>Latitude: 40.205226 </td></tr>
+<tr><td>Heading: 290.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390812</longitude>
+              <latitude>40.205226</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390812,40.205226</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3491</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390848 </td></tr>
+<tr><td>Latitude: 40.205235 </td></tr>
+<tr><td>Heading: 288.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390848</longitude>
+              <latitude>40.205235</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390848,40.205235</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3506</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390883 </td></tr>
+<tr><td>Latitude: 40.205242 </td></tr>
+<tr><td>Heading: 285.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390883</longitude>
+              <latitude>40.205242</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390883,40.205242</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3521</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390918 </td></tr>
+<tr><td>Latitude: 40.205248 </td></tr>
+<tr><td>Heading: 282.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390918</longitude>
+              <latitude>40.205248</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390918,40.205248</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3536</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390954 </td></tr>
+<tr><td>Latitude: 40.205253 </td></tr>
+<tr><td>Heading: 279.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390954</longitude>
+              <latitude>40.205253</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390954,40.205253</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3551</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.390990 </td></tr>
+<tr><td>Latitude: 40.205256 </td></tr>
+<tr><td>Heading: 276.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.390990</longitude>
+              <latitude>40.205256</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.390990,40.205256</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3566</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391027 </td></tr>
+<tr><td>Latitude: 40.205257 </td></tr>
+<tr><td>Heading: 271.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391027</longitude>
+              <latitude>40.205257</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391027,40.205257</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3581</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391064 </td></tr>
+<tr><td>Latitude: 40.205258 </td></tr>
+<tr><td>Heading: 271.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391064</longitude>
+              <latitude>40.205258</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391064,40.205258</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3596</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391102 </td></tr>
+<tr><td>Latitude: 40.205257 </td></tr>
+<tr><td>Heading: 268.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391102</longitude>
+              <latitude>40.205257</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391102,40.205257</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3611</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391140 </td></tr>
+<tr><td>Latitude: 40.205258 </td></tr>
+<tr><td>Heading: 271.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391140</longitude>
+              <latitude>40.205258</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391140,40.205258</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3626</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391178 </td></tr>
+<tr><td>Latitude: 40.205257 </td></tr>
+<tr><td>Heading: 267.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391178</longitude>
+              <latitude>40.205257</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391178,40.205257</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3641</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391216 </td></tr>
+<tr><td>Latitude: 40.205255 </td></tr>
+<tr><td>Heading: 266.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391216</longitude>
+              <latitude>40.205255</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391216,40.205255</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3655</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391252 </td></tr>
+<tr><td>Latitude: 40.205253 </td></tr>
+<tr><td>Heading: 266.2 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391252</longitude>
+              <latitude>40.205253</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391252,40.205253</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3669</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391289 </td></tr>
+<tr><td>Latitude: 40.205251 </td></tr>
+<tr><td>Heading: 266.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391289</longitude>
+              <latitude>40.205251</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391289,40.205251</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3684</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391327 </td></tr>
+<tr><td>Latitude: 40.205249 </td></tr>
+<tr><td>Heading: 265.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391327</longitude>
+              <latitude>40.205249</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391327,40.205249</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3698</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391363 </td></tr>
+<tr><td>Latitude: 40.205247 </td></tr>
+<tr><td>Heading: 266.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391363</longitude>
+              <latitude>40.205247</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391363,40.205247</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3712</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391399 </td></tr>
+<tr><td>Latitude: 40.205246 </td></tr>
+<tr><td>Heading: 266.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391399</longitude>
+              <latitude>40.205246</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391399,40.205246</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3726</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391436 </td></tr>
+<tr><td>Latitude: 40.205244 </td></tr>
+<tr><td>Heading: 266.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391436</longitude>
+              <latitude>40.205244</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391436,40.205244</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3740</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391472 </td></tr>
+<tr><td>Latitude: 40.205241 </td></tr>
+<tr><td>Heading: 265.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391472</longitude>
+              <latitude>40.205241</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391472,40.205241</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3754</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391509 </td></tr>
+<tr><td>Latitude: 40.205240 </td></tr>
+<tr><td>Heading: 267.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391509</longitude>
+              <latitude>40.205240</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391509,40.205240</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3768</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391546 </td></tr>
+<tr><td>Latitude: 40.205241 </td></tr>
+<tr><td>Heading: 271.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391546</longitude>
+              <latitude>40.205241</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391546,40.205241</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3782</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391583 </td></tr>
+<tr><td>Latitude: 40.205241 </td></tr>
+<tr><td>Heading: 271.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391583</longitude>
+              <latitude>40.205241</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391583,40.205241</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3796</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391620 </td></tr>
+<tr><td>Latitude: 40.205241 </td></tr>
+<tr><td>Heading: 268.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391620</longitude>
+              <latitude>40.205241</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391620,40.205241</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3810</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391657 </td></tr>
+<tr><td>Latitude: 40.205239 </td></tr>
+<tr><td>Heading: 266.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391657</longitude>
+              <latitude>40.205239</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391657,40.205239</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3824</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391694 </td></tr>
+<tr><td>Latitude: 40.205237 </td></tr>
+<tr><td>Heading: 266.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391694</longitude>
+              <latitude>40.205237</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391694,40.205237</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3838</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391730 </td></tr>
+<tr><td>Latitude: 40.205236 </td></tr>
+<tr><td>Heading: 266.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391730</longitude>
+              <latitude>40.205236</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391730,40.205236</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3852</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391766 </td></tr>
+<tr><td>Latitude: 40.205233 </td></tr>
+<tr><td>Heading: 264.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391766</longitude>
+              <latitude>40.205233</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391766,40.205233</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3866</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391802 </td></tr>
+<tr><td>Latitude: 40.205232 </td></tr>
+<tr><td>Heading: 267.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391802</longitude>
+              <latitude>40.205232</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391802,40.205232</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3880</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391839 </td></tr>
+<tr><td>Latitude: 40.205231 </td></tr>
+<tr><td>Heading: 267.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391839</longitude>
+              <latitude>40.205231</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391839,40.205231</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3894</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391875 </td></tr>
+<tr><td>Latitude: 40.205229 </td></tr>
+<tr><td>Heading: 266.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391875</longitude>
+              <latitude>40.205229</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391875,40.205229</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3908</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391911 </td></tr>
+<tr><td>Latitude: 40.205228 </td></tr>
+<tr><td>Heading: 266.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391911</longitude>
+              <latitude>40.205228</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391911,40.205228</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3922</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391947 </td></tr>
+<tr><td>Latitude: 40.205226 </td></tr>
+<tr><td>Heading: 265.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391947</longitude>
+              <latitude>40.205226</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391947,40.205226</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3936</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.391983 </td></tr>
+<tr><td>Latitude: 40.205225 </td></tr>
+<tr><td>Heading: 268.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.391983</longitude>
+              <latitude>40.205225</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.391983,40.205225</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3950</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392020 </td></tr>
+<tr><td>Latitude: 40.205223 </td></tr>
+<tr><td>Heading: 266.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392020</longitude>
+              <latitude>40.205223</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392020,40.205223</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3964</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392056 </td></tr>
+<tr><td>Latitude: 40.205222 </td></tr>
+<tr><td>Heading: 266.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392056</longitude>
+              <latitude>40.205222</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392056,40.205222</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3978</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392092 </td></tr>
+<tr><td>Latitude: 40.205219 </td></tr>
+<tr><td>Heading: 265.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392092</longitude>
+              <latitude>40.205219</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392092,40.205219</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT3992</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392129 </td></tr>
+<tr><td>Latitude: 40.205218 </td></tr>
+<tr><td>Heading: 266.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392129</longitude>
+              <latitude>40.205218</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392129,40.205218</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4006</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392166 </td></tr>
+<tr><td>Latitude: 40.205216 </td></tr>
+<tr><td>Heading: 267.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392166</longitude>
+              <latitude>40.205216</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392166,40.205216</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4020</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392203 </td></tr>
+<tr><td>Latitude: 40.205215 </td></tr>
+<tr><td>Heading: 267.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392203</longitude>
+              <latitude>40.205215</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392203,40.205215</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4034</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392240 </td></tr>
+<tr><td>Latitude: 40.205213 </td></tr>
+<tr><td>Heading: 266.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392240</longitude>
+              <latitude>40.205213</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392240,40.205213</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4048</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392276 </td></tr>
+<tr><td>Latitude: 40.205208 </td></tr>
+<tr><td>Heading: 259.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392276</longitude>
+              <latitude>40.205208</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392276,40.205208</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4062</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392313 </td></tr>
+<tr><td>Latitude: 40.205209 </td></tr>
+<tr><td>Heading: 272.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392313</longitude>
+              <latitude>40.205209</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392313,40.205209</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4076</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392350 </td></tr>
+<tr><td>Latitude: 40.205208 </td></tr>
+<tr><td>Heading: 267.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392350</longitude>
+              <latitude>40.205208</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392350,40.205208</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4090</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392388 </td></tr>
+<tr><td>Latitude: 40.205207 </td></tr>
+<tr><td>Heading: 268.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392388</longitude>
+              <latitude>40.205207</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392388,40.205207</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4104</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392425 </td></tr>
+<tr><td>Latitude: 40.205206 </td></tr>
+<tr><td>Heading: 268.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392425</longitude>
+              <latitude>40.205206</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392425,40.205206</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4118</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392462 </td></tr>
+<tr><td>Latitude: 40.205205 </td></tr>
+<tr><td>Heading: 268.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392462</longitude>
+              <latitude>40.205205</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392462,40.205205</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4132</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392499 </td></tr>
+<tr><td>Latitude: 40.205204 </td></tr>
+<tr><td>Heading: 267.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392499</longitude>
+              <latitude>40.205204</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392499,40.205204</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4146</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392537 </td></tr>
+<tr><td>Latitude: 40.205205 </td></tr>
+<tr><td>Heading: 271.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392537</longitude>
+              <latitude>40.205205</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392537,40.205205</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4160</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392574 </td></tr>
+<tr><td>Latitude: 40.205204 </td></tr>
+<tr><td>Heading: 268.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392574</longitude>
+              <latitude>40.205204</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392574,40.205204</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4174</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392611 </td></tr>
+<tr><td>Latitude: 40.205203 </td></tr>
+<tr><td>Heading: 268.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392611</longitude>
+              <latitude>40.205203</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392611,40.205203</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4188</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392648 </td></tr>
+<tr><td>Latitude: 40.205202 </td></tr>
+<tr><td>Heading: 268.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392648</longitude>
+              <latitude>40.205202</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392648,40.205202</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4202</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392685 </td></tr>
+<tr><td>Latitude: 40.205202 </td></tr>
+<tr><td>Heading: 268.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392685</longitude>
+              <latitude>40.205202</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392685,40.205202</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4216</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392722 </td></tr>
+<tr><td>Latitude: 40.205202 </td></tr>
+<tr><td>Heading: 269.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392722</longitude>
+              <latitude>40.205202</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392722,40.205202</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4230</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392759 </td></tr>
+<tr><td>Latitude: 40.205201 </td></tr>
+<tr><td>Heading: 269.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392759</longitude>
+              <latitude>40.205201</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392759,40.205201</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4244</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392796 </td></tr>
+<tr><td>Latitude: 40.205201 </td></tr>
+<tr><td>Heading: 269.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392796</longitude>
+              <latitude>40.205201</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392796,40.205201</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4258</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392832 </td></tr>
+<tr><td>Latitude: 40.205201 </td></tr>
+<tr><td>Heading: 270.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392832</longitude>
+              <latitude>40.205201</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392832,40.205201</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4272</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392869 </td></tr>
+<tr><td>Latitude: 40.205202 </td></tr>
+<tr><td>Heading: 271.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392869</longitude>
+              <latitude>40.205202</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392869,40.205202</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4287</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392907 </td></tr>
+<tr><td>Latitude: 40.205203 </td></tr>
+<tr><td>Heading: 270.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392907</longitude>
+              <latitude>40.205203</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392907,40.205203</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4302</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392944 </td></tr>
+<tr><td>Latitude: 40.205203 </td></tr>
+<tr><td>Heading: 270.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392944</longitude>
+              <latitude>40.205203</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392944,40.205203</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4317</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.392980 </td></tr>
+<tr><td>Latitude: 40.205203 </td></tr>
+<tr><td>Heading: 271.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.392980</longitude>
+              <latitude>40.205203</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.392980,40.205203</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4333</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393017 </td></tr>
+<tr><td>Latitude: 40.205203 </td></tr>
+<tr><td>Heading: 269.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393017</longitude>
+              <latitude>40.205203</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393017,40.205203</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4350</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393055 </td></tr>
+<tr><td>Latitude: 40.205204 </td></tr>
+<tr><td>Heading: 271.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393055</longitude>
+              <latitude>40.205204</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393055,40.205204</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4368</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393092 </td></tr>
+<tr><td>Latitude: 40.205203 </td></tr>
+<tr><td>Heading: 267.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393092</longitude>
+              <latitude>40.205203</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393092,40.205203</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4392</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393129 </td></tr>
+<tr><td>Latitude: 40.205203 </td></tr>
+<tr><td>Heading: 270.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393129</longitude>
+              <latitude>40.205203</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393129,40.205203</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4413</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393166 </td></tr>
+<tr><td>Latitude: 40.205202 </td></tr>
+<tr><td>Heading: 268.5 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393166</longitude>
+              <latitude>40.205202</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393166,40.205202</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4434</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393202 </td></tr>
+<tr><td>Latitude: 40.205206 </td></tr>
+<tr><td>Heading: 278.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393202</longitude>
+              <latitude>40.205206</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393202,40.205206</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4457</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393238 </td></tr>
+<tr><td>Latitude: 40.205210 </td></tr>
+<tr><td>Heading: 276.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393238</longitude>
+              <latitude>40.205210</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393238,40.205210</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4513</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393315 </td></tr>
+<tr><td>Latitude: 40.205208 </td></tr>
+<tr><td>Heading: 268.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393315</longitude>
+              <latitude>40.205208</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393315,40.205208</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4541</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393350 </td></tr>
+<tr><td>Latitude: 40.205202 </td></tr>
+<tr><td>Heading: 256.4 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393350</longitude>
+              <latitude>40.205202</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393350,40.205202</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4572</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393383 </td></tr>
+<tr><td>Latitude: 40.205189 </td></tr>
+<tr><td>Heading: 243.6 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393383</longitude>
+              <latitude>40.205189</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393383,40.205189</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4602</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393413 </td></tr>
+<tr><td>Latitude: 40.205174 </td></tr>
+<tr><td>Heading: 235.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393413</longitude>
+              <latitude>40.205174</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393413,40.205174</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4631</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393442 </td></tr>
+<tr><td>Latitude: 40.205155 </td></tr>
+<tr><td>Heading: 230.0 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393442</longitude>
+              <latitude>40.205155</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393442,40.205155</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4656</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393456 </td></tr>
+<tr><td>Latitude: 40.205130 </td></tr>
+<tr><td>Heading: 202.8 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393456</longitude>
+              <latitude>40.205130</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393456,40.205130</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4680</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393473 </td></tr>
+<tr><td>Latitude: 40.205105 </td></tr>
+<tr><td>Heading: 208.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393473</longitude>
+              <latitude>40.205105</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393473,40.205105</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4702</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393487 </td></tr>
+<tr><td>Latitude: 40.205080 </td></tr>
+<tr><td>Heading: 201.7 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393487</longitude>
+              <latitude>40.205080</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393487,40.205080</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4725</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393496 </td></tr>
+<tr><td>Latitude: 40.205052 </td></tr>
+<tr><td>Heading: 194.1 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393496</longitude>
+              <latitude>40.205052</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393496,40.205052</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4746</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393504 </td></tr>
+<tr><td>Latitude: 40.205025 </td></tr>
+<tr><td>Heading: 192.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393504</longitude>
+              <latitude>40.205025</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393504,40.205025</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4767</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393509 </td></tr>
+<tr><td>Latitude: 40.204998 </td></tr>
+<tr><td>Heading: 188.9 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393509</longitude>
+              <latitude>40.204998</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393509,40.204998</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>WPT4788</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -88.393514 </td></tr>
+<tr><td>Latitude: 40.204970 </td></tr>
+<tr><td>Heading: 187.3 </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-88.393514</longitude>
+              <latitude>40.204970</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>-88.393514,40.204970</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Placemark>
+          <name>Path</name>
+          <styleUrl>#lineStyle</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>
+-88.393246,40.205347
+-88.393252,40.205319
+-88.393259,40.205292
+-88.393266,40.205264
+-88.393272,40.205236
+-88.393278,40.205208
+-88.393286,40.205181
+-88.393291,40.205154
+-88.393289,40.205126
+-88.393294,40.205097
+-88.393298,40.205070
+-88.393303,40.205041
+-88.393308,40.205014
+-88.393311,40.204986
+-88.393315,40.204958
+-88.393318,40.204930
+-88.393322,40.204903
+-88.393325,40.204875
+-88.393329,40.204846
+-88.393333,40.204817
+-88.393336,40.204789
+-88.393340,40.204761
+-88.393343,40.204733
+-88.393345,40.204705
+-88.393347,40.204676
+-88.393351,40.204648
+-88.393353,40.204619
+-88.393355,40.204590
+-88.393357,40.204561
+-88.393354,40.204532
+-88.393356,40.204503
+-88.393358,40.204475
+-88.393358,40.204446
+-88.393356,40.204417
+-88.393355,40.204389
+-88.393356,40.204360
+-88.393358,40.204332
+-88.393357,40.204304
+-88.393354,40.204277
+-88.393348,40.204248
+-88.393349,40.204220
+-88.393342,40.204192
+-88.393335,40.204164
+-88.393331,40.204136
+-88.393321,40.204109
+-88.393312,40.204082
+-88.393302,40.204055
+-88.393290,40.204029
+-88.393276,40.204003
+-88.393256,40.203979
+-88.393233,40.203957
+-88.393208,40.203936
+-88.393179,40.203918
+-88.393149,40.203903
+-88.393115,40.203890
+-88.393080,40.203880
+-88.393044,40.203873
+-88.393008,40.203869
+-88.392971,40.203867
+-88.392934,40.203867
+-88.392897,40.203867
+-88.392860,40.203868
+-88.392822,40.203868
+-88.392786,40.203870
+-88.392748,40.203865
+-88.392712,40.203865
+-88.392675,40.203867
+-88.392639,40.203868
+-88.392602,40.203867
+-88.392565,40.203869
+-88.392528,40.203870
+-88.392490,40.203872
+-88.392453,40.203872
+-88.392416,40.203874
+-88.392379,40.203876
+-88.392342,40.203874
+-88.392306,40.203870
+-88.392268,40.203871
+-88.392232,40.203873
+-88.392195,40.203874
+-88.392158,40.203875
+-88.392121,40.203874
+-88.392083,40.203875
+-88.392045,40.203876
+-88.392006,40.203877
+-88.391970,40.203875
+-88.391931,40.203875
+-88.391894,40.203874
+-88.391857,40.203875
+-88.391820,40.203876
+-88.391782,40.203878
+-88.391744,40.203879
+-88.391705,40.203880
+-88.391667,40.203882
+-88.391628,40.203883
+-88.391590,40.203884
+-88.391551,40.203885
+-88.391515,40.203886
+-88.391476,40.203885
+-88.391438,40.203886
+-88.391399,40.203887
+-88.391360,40.203887
+-88.391321,40.203886
+-88.391282,40.203886
+-88.391242,40.203885
+-88.391203,40.203884
+-88.391164,40.203884
+-88.391125,40.203883
+-88.391086,40.203882
+-88.391047,40.203881
+-88.391007,40.203882
+-88.390968,40.203884
+-88.390929,40.203885
+-88.390889,40.203885
+-88.390850,40.203885
+-88.390814,40.203886
+-88.390778,40.203886
+-88.390742,40.203887
+-88.390706,40.203887
+-88.390667,40.203885
+-88.390631,40.203885
+-88.390592,40.203886
+-88.390552,40.203886
+-88.390514,40.203887
+-88.390475,40.203887
+-88.390436,40.203887
+-88.390397,40.203886
+-88.390361,40.203885
+-88.390322,40.203885
+-88.390284,40.203886
+-88.390246,40.203887
+-88.390209,40.203887
+-88.390172,40.203885
+-88.390135,40.203884
+-88.390099,40.203885
+-88.390060,40.203885
+-88.390022,40.203886
+-88.389984,40.203887
+-88.389948,40.203889
+-88.389909,40.203891
+-88.389873,40.203893
+-88.389835,40.203896
+-88.389800,40.203901
+-88.389762,40.203905
+-88.389725,40.203910
+-88.389690,40.203918
+-88.389655,40.203928
+-88.389621,40.203938
+-88.389586,40.203950
+-88.389553,40.203964
+-88.389522,40.203979
+-88.389494,40.203998
+-88.389464,40.204015
+-88.389440,40.204037
+-88.389415,40.204057
+-88.389388,40.204076
+-88.389363,40.204096
+-88.389338,40.204116
+-88.389310,40.204134
+-88.389282,40.204152
+-88.389259,40.204173
+-88.389242,40.204198
+-88.389232,40.204224
+-88.389238,40.204251
+-88.389240,40.204279
+-88.389246,40.204307
+-88.389254,40.204333
+-88.389261,40.204360
+-88.389272,40.204388
+-88.389283,40.204415
+-88.389297,40.204441
+-88.389314,40.204466
+-88.389336,40.204488
+-88.389354,40.204513
+-88.389378,40.204534
+-88.389403,40.204554
+-88.389430,40.204574
+-88.389457,40.204592
+-88.389487,40.204609
+-88.389517,40.204627
+-88.389547,40.204644
+-88.389576,40.204660
+-88.389606,40.204676
+-88.389636,40.204691
+-88.389667,40.204707
+-88.389698,40.204723
+-88.389730,40.204739
+-88.389762,40.204754
+-88.389794,40.204768
+-88.389827,40.204781
+-88.389860,40.204795
+-88.389894,40.204806
+-88.389930,40.204817
+-88.389960,40.204832
+-88.389994,40.204842
+-88.390024,40.204857
+-88.390055,40.204873
+-88.390085,40.204887
+-88.390118,40.204901
+-88.390149,40.204916
+-88.390179,40.204931
+-88.390210,40.204947
+-88.390241,40.204962
+-88.390272,40.204976
+-88.390302,40.204992
+-88.390332,40.205007
+-88.390363,40.205024
+-88.390393,40.205040
+-88.390423,40.205058
+-88.390455,40.205073
+-88.390486,40.205088
+-88.390518,40.205102
+-88.390549,40.205117
+-88.390581,40.205133
+-88.390612,40.205148
+-88.390644,40.205163
+-88.390676,40.205177
+-88.390709,40.205190
+-88.390743,40.205203
+-88.390776,40.205215
+-88.390812,40.205226
+-88.390848,40.205235
+-88.390883,40.205242
+-88.390918,40.205248
+-88.390954,40.205253
+-88.390990,40.205256
+-88.391027,40.205257
+-88.391064,40.205258
+-88.391102,40.205257
+-88.391140,40.205258
+-88.391178,40.205257
+-88.391216,40.205255
+-88.391252,40.205253
+-88.391289,40.205251
+-88.391327,40.205249
+-88.391363,40.205247
+-88.391399,40.205246
+-88.391436,40.205244
+-88.391472,40.205241
+-88.391509,40.205240
+-88.391546,40.205241
+-88.391583,40.205241
+-88.391620,40.205241
+-88.391657,40.205239
+-88.391694,40.205237
+-88.391730,40.205236
+-88.391766,40.205233
+-88.391802,40.205232
+-88.391839,40.205231
+-88.391875,40.205229
+-88.391911,40.205228
+-88.391947,40.205226
+-88.391983,40.205225
+-88.392020,40.205223
+-88.392056,40.205222
+-88.392092,40.205219
+-88.392129,40.205218
+-88.392166,40.205216
+-88.392203,40.205215
+-88.392240,40.205213
+-88.392276,40.205208
+-88.392313,40.205209
+-88.392350,40.205208
+-88.392388,40.205207
+-88.392425,40.205206
+-88.392462,40.205205
+-88.392499,40.205204
+-88.392537,40.205205
+-88.392574,40.205204
+-88.392611,40.205203
+-88.392648,40.205202
+-88.392685,40.205202
+-88.392722,40.205202
+-88.392759,40.205201
+-88.392796,40.205201
+-88.392832,40.205201
+-88.392869,40.205202
+-88.392907,40.205203
+-88.392944,40.205203
+-88.392980,40.205203
+-88.393017,40.205203
+-88.393055,40.205204
+-88.393092,40.205203
+-88.393129,40.205203
+-88.393166,40.205202
+-88.393202,40.205206
+-88.393238,40.205210
+-88.393315,40.205208
+-88.393350,40.205202
+-88.393383,40.205189
+-88.393413,40.205174
+-88.393442,40.205155
+-88.393456,40.205130
+-88.393473,40.205105
+-88.393487,40.205080
+-88.393496,40.205052
+-88.393504,40.205025
+-88.393509,40.204998
+-88.393514,40.204970
+</coordinates>
+          </LineString>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>
