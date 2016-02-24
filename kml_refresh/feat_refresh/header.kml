@@ -38,7 +38,7 @@
     
     <ns0:Style id="feat_h">
       <ns0:IconStyle>
-        <ns0:scale>1.2</ns0:scale>
+        <ns0:scale>0.5</ns0:scale>
         <ns0:Icon>
           <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon48.png</ns0:href>
         </ns0:Icon>
@@ -61,7 +61,7 @@
     
     <ns0:Style id="waypoint_h">
       <ns0:IconStyle>
-        <ns0:scale>1.2</ns0:scale>
+        <ns0:scale>0.5</ns0:scale>
         <ns0:Icon>
           <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</ns0:href>
         </ns0:Icon>

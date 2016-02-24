@@ -1,13 +1,8 @@
-#!/usr/bin/env python
-# Mohammad Saad
-# 2/3/2016
-# Plots points on KML in
-# Real time
-
 import os
 import random
 import xml.etree.ElementTree as ET
 import utm
+from multiprocessing import Process, Pipe
 
 class RealTimePlotter:
 
@@ -62,14 +57,14 @@ class RealTimePlotter:
 		longc = ET.SubElement(lookat, append_gis_str('longitude'))
 		longc.text = str(coords[1])
 
-		tilt = ET.SubElement(lookat, append_gis_str('tilt'))
-		tilt.text = "66"
-
 		point = ET.SubElement(pmark, append_gis_str('Point'))
 		coordtag = ET.SubElement(point, append_gis_str('coordinates'))
 		coordtag.text = '{0},{1}'.format(coords[1], coords[0])
 
-		self.coordinates.text += '{0},{1}\n'.format(coords[1], coords[0])
+
+	def plot_threaded(self, conn):
+		dom = conn.recv()
+		dom.write(self.output_file)
 
 	def create_feature_placemark(self, coords, count):
 		# add to points folder
@@ -92,9 +87,6 @@ class RealTimePlotter:
 		longc = ET.SubElement(lookat, append_gis_str('longitude'))
 		longc.text = str(coords[1])
 
-		tilt = ET.SubElement(lookat, append_gis_str('tilt'))
-		tilt.text = "66"
-
 		point = ET.SubElement(pmark, append_gis_str('Point'))
 		coordtag = ET.SubElement(point, append_gis_str('coordinates'))
 		coordtag.text = '{0},{1}'.format(coords[1], coords[0])
@@ -110,7 +102,7 @@ class RealTimePlotter:
 		line = ''
 		while line is not "END":
 			line = raw_input()
-			total_count += 1
+			
 			# if line is end, stop
 			if line == "END":
 				print "End of Stream"
@@ -120,15 +112,22 @@ class RealTimePlotter:
 			line_arr = line.split(',')
 			
 
+
 			# plot actual path 
 			if len(line_arr) == 10:
-				coords = utm.to_latlon(float(line_arr[2]), float(line_arr[1]), zone, 'T')
+				lat = float(line_arr[2])
+				lon = float(line_arr[1])
+				coords = utm.to_latlon(lat, lon, zone, 'T')
 				self.create_point_placemark(coords)
 			# plot features
 			elif len(line_arr) == 4:
+				lat = float(line_arr[2])
+				lon = float(line_arr[1])
+				if lat > 1000000.0 or lon > 10000000.0:
+					continue
 				count = int(line_arr[0])
 				# convert to latlon
-				coords = utm.to_latlon(float(line_arr[2]), float(line_arr[1]), zone, 'T')
+				coords = utm.to_latlon(lat, lon, zone, 'T')
 				self.create_feature_placemark(coords, count)
 
 			# otherwise continue
@@ -137,10 +136,13 @@ class RealTimePlotter:
 
 			# write to file every 100 samples
 			if line_arr[0] == '\r':
-				self.dom.write(self.output_file)
-				# total_count = 0
-
-			print total_count
+				total_count += 1
+				if total_count % 2== 0:
+					parent_conn, child_conn = Pipe()
+					p = Process(target=self.plot_threaded, args=(child_conn,))
+					p.start()
+					parent_conn.send(self.dom)
+					p.join()
 
 
 def append_gis_str(string):
