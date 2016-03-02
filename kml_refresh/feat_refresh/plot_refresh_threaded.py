@@ -129,7 +129,7 @@ class RealTimePlotter:
 		coordtag = ET.SubElement(point, append_gis_str('coordinates'))
 		coordtag.text = '{0},{1}'.format(coords[1], coords[0])
 
-		self.feat_dict[count] = (lat,longc, coordtag)
+		self.feat_dict[count] = (lat, longc, coordtag)
 
 
 	def read_and_write_to_output(self, zone):
