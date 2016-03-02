@@ -150,27 +150,30 @@ class RealTimePlotter:
 			line_arr = line.split(',')
 			
 
+			try:
+				# plot actual path 
+				if len(line_arr) == 10:
+					lat = float(line_arr[2])
+					lon = float(line_arr[1])
+					coords = utm.to_latlon(lat, lon, zone, 'T')
+					self.create_point_placemark(coords)
+				# plot features
+				elif len(line_arr) == 4:
+					lat = float(line_arr[2])
+					lon = float(line_arr[1])
+					if lat > 1000000.0 or lon > 10000000.0:
+						continue
+					count = int(line_arr[0])
+					# convert to latlon
+					coords = utm.to_latlon(lat, lon, zone, 'T')
+					self.create_feature_placemark(coords, count)
 
-			# plot actual path 
-			if len(line_arr) == 10:
-				lat = float(line_arr[2])
-				lon = float(line_arr[1])
-				coords = utm.to_latlon(lat, lon, zone, 'T')
-				self.create_point_placemark(coords)
-			# plot features
-			elif len(line_arr) == 4:
-				lat = float(line_arr[2])
-				lon = float(line_arr[1])
-				if lat > 1000000.0 or lon > 10000000.0:
-					continue
-				count = int(line_arr[0])
-				# convert to latlon
-				coords = utm.to_latlon(lat, lon, zone, 'T')
-				self.create_feature_placemark(coords, count)
+				# otherwise continue
+				else:
+					pass
+			except:
+				continue
 
-			# otherwise continue
-			else:
-				pass
 
 			# write to file every 100 samples
 			if line_arr[0] == '\r':
@@ -184,6 +187,8 @@ class RealTimePlotter:
 					p.join()
 					if time.time() - t0 > 0.05:
 						self.reload_file()
+						print self.curr_index
+					print total_count
 
 
 def append_gis_str(string):
