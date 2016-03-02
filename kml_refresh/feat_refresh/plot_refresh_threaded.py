@@ -3,6 +3,7 @@ import random
 import xml.etree.ElementTree as ET
 import utm
 from multiprocessing import Process, Pipe
+import time
 
 class RealTimePlotter:
 
@@ -10,7 +11,8 @@ class RealTimePlotter:
 
 		self.header = header_file
 		self.curr_index = 0
-		self.output_file = output_file + self.curr_index
+		self.orig_output_file = output_file
+		self.output_file = str(self.curr_index) + output_file 
 
 		self.feat_dict = {}
 
@@ -45,7 +47,7 @@ class RealTimePlotter:
 
 	def reload_file(self):
 		self.curr_index += 1
-		self.output_file = output_file + self.curr_index
+		self.output_file =str(self.curr_index) + self.orig_output_file
 
 		self.feat_dict = {}
 
