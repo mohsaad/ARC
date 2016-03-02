@@ -9,7 +9,43 @@ class RealTimePlotter:
 	def __init__(self, header_file, output_file):
 
 		self.header = header_file
-		self.output_file = output_file
+		self.curr_index = 0
+		self.output_file = output_file + self.curr_index
+
+		self.feat_dict = {}
+
+		self.dom =ET.parse(self.header)
+		self.root = self.dom.getroot()
+
+		self.document = self.root.findall(append_gis_str('Document'))[0]
+
+		folder_top = self.document.findall(append_gis_str('Folder'))[0]
+		folder = folder_top.findall(append_gis_str('Folder'))[0]
+
+		self.actual_points = ET.SubElement(folder, append_gis_str('Folder'))
+		name_points = ET.SubElement(self.actual_points, append_gis_str('Name'))
+		name_points.text = "Points"
+
+		line_placemarks = ET.SubElement(folder, append_gis_str('Placemark'))
+		name = ET.SubElement(line_placemarks, append_gis_str('Name'))
+		name.text = "Path"
+
+		style_url = ET.SubElement(line_placemarks, append_gis_str('styleUrl'))
+		style_url.text = '#lineStyle'
+
+		line_string = ET.SubElement(line_placemarks, append_gis_str('lineString'))
+
+		tesselate = ET.SubElement(line_string, append_gis_str('tessellate'))
+		tesselate.text = "1"
+
+		self.coordinates = ET.SubElement(line_string, append_gis_str('coordinates'))
+		self.coordinates.text = ''
+		# test
+		self.dom.write(self.output_file)
+
+	def reload_file(self):
+		self.curr_index += 1
+		self.output_file = output_file + self.curr_index
 
 		self.feat_dict = {}
 
@@ -138,11 +174,14 @@ class RealTimePlotter:
 			if line_arr[0] == '\r':
 				total_count += 1
 				if total_count % 2== 0:
+					t0 = time.time()
 					parent_conn, child_conn = Pipe()
 					p = Process(target=self.plot_threaded, args=(child_conn,))
 					p.start()
 					parent_conn.send(self.dom)
 					p.join()
+					if time.time() - t0 > 0.05:
+						self.reload_file()
 
 
 def append_gis_str(string):
@@ -150,7 +189,7 @@ def append_gis_str(string):
 
 
 def main():
-	rtp = RealTimePlotter('header.kml', '/dev/shm/real_time_output.kml')
+	rtp = RealTimePlotter('header.kml', 'real_time_output.kml')
 	rtp.read_and_write_to_output(16)
 
 if __name__ == '__main__':
