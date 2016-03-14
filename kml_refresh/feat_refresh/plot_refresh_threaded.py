@@ -12,7 +12,10 @@ class RealTimePlotter:
 		self.header = header_file
 		self.curr_index = 0
 		self.orig_output_file = output_file
-		self.output_file = str(self.curr_index) + output_file 
+		self.folder_name = 'refresh_files/'		
+		self.output_file = self.folder_name + str(self.curr_index) + output_file 
+
+		print self.output_file
 
 		self.feat_dict = {}
 
@@ -47,8 +50,11 @@ class RealTimePlotter:
 
 	def reload_file(self):
 		self.curr_index += 1
-		self.output_file =str(self.curr_index) + self.orig_output_file
+		self.output_file = self.folder_name + str(self.curr_index) + self.orig_output_file
 
+		print self.output_file
+		
+		
 		self.feat_dict = {}
 
 		self.dom =ET.parse(self.header)
@@ -138,6 +144,10 @@ class RealTimePlotter:
 		total_count = 0
 		count = 0
 		line = ''
+
+		print "Place refresher in Google Earth"
+		time.sleep(60)
+
 		while line is not "END":
 			line = raw_input()
 			
