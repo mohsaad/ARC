@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml>
+	<Document>
+		<Folder>
+			<NetworkLink>
+				<Link>
+					<href>/home/saad/Research/ARC/kml_refresh/feat_refresh/refresh_files/0real_time_output.kml</href>
+			  		<refreshMode>onInterval</refreshMode>
+			  		<refreshInterval>0.5</refreshInterval>
+				</Link>
+		  	</NetworkLink>
+			<NetworkLink>
+				<Link>
+					<href>/home/saad/Research/ARC/kml_refresh/feat_refresh/refresh_files/1real_time_output.kml</href>
+			  		<refreshMode>onInterval</refreshMode>
+			  		<refreshInterval>0.5</refreshInterval>
+				</Link>
+		  	</NetworkLink>
+			<NetworkLink>
+				<Link>
+					<href>/home/saad/Research/ARC/kml_refresh/feat_refresh/refresh_files/2real_time_output.kml</href>
+			  		<refreshMode>onInterval</refreshMode>
+			  		<refreshInterval>0.5</refreshInterval>
+				</Link>
+		  	</NetworkLink> 	
+			<NetworkLink>
+				<Link>
+					<href>/home/saad/Research/ARC/kml_refresh/feat_refresh/refresh_files/3real_time_output.kml</href>
+			  		<refreshMode>onInterval</refreshMode>
+			  		<refreshInterval>0.5</refreshInterval>
+				</Link>
+		  	</NetworkLink> 	
+			<NetworkLink>
+				<Link>
+					<href>/home/saad/Research/ARC/kml_refresh/feat_refresh/refresh_files/4real_time_output.kml</href>
+			  		<refreshMode>onInterval</refreshMode>
+			  		<refreshInterval>0.5</refreshInterval>
+				</Link>
+		  	</NetworkLink> 	 	
+		</Folder>
+	</Document>
+</kml>
