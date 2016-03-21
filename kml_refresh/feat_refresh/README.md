@@ -4,7 +4,7 @@
 
 Before doing anything, make sure to generate as many KML files as you need for your output using 
 
-`python generate_refresh_files.py <filename> <number of files>` 
+`python generate_refresh_files.py <number of files> <directory> <filename>` 
 
 I would think about 100000 is a good estimate, but ultimately it depends on your SLAM system.
 
