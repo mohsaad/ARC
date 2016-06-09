@@ -146,7 +146,7 @@ class RealTimePlotter:
 		line = ''
 
 		print "Place refresher in Google Earth"
-		time.sleep(60)
+		time.sleep(15)
 
 		while line is not "END":
 			line = raw_input()

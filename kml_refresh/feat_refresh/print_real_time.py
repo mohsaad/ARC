@@ -13,4 +13,5 @@ filename = sys.argv[1]
 with open(filename, 'r') as f:
 	for line in f:
 		print line,
+		time.sleep(0.005)
 f.close()

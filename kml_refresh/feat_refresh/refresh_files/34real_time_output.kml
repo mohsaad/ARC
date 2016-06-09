@@ -1,0 +1,90 @@
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2">
+<ns0:Document>
+    <ns0:name>GPS device</ns0:name>
+    <ns0:snippet>Created Fri Nov 20 16:06:32 2015</ns0:snippet>    
+    <ns0:Style id="track_n">
+      <ns0:IconStyle>
+        <ns0:scale>.5</ns0:scale>
+        <ns0:Icon>
+          <ns0:href>http://earth.google.com/images/kml-icons/track-directional/track-none.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LabelStyle>
+        <ns0:scale>0</ns0:scale>
+      </ns0:LabelStyle>
+    </ns0:Style>
+
+
+    
+    <ns0:Style id="track_h">
+      <ns0:IconStyle>
+        <ns0:scale>1.2</ns0:scale>
+        <ns0:Icon>
+          <ns0:href>http://earth.google.com/images/kml-icons/track-directional/track-none.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:StyleMap id="track">
+      <ns0:Pair>
+        <ns0:key>normal</ns0:key>
+        <ns0:styleUrl>#track_n</ns0:styleUrl>
+      </ns0:Pair>
+      <ns0:Pair>
+        <ns0:key>highlight</ns0:key>
+        <ns0:styleUrl>#track_h</ns0:styleUrl>
+      </ns0:Pair>
+    </ns0:StyleMap>
+    
+    <ns0:Style id="feat_h">
+      <ns0:IconStyle>
+        <ns0:scale>0.5</ns0:scale>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon48.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:StyleMap id="feats">
+      <ns0:Pair>
+        <ns0:key>normal</ns0:key>
+        <ns0:styleUrl>#feat_h</ns0:styleUrl>
+      </ns0:Pair>
+    </ns0:StyleMap>
+
+    <ns0:Style id="waypoint_n">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    
+    <ns0:Style id="waypoint_h">
+      <ns0:IconStyle>
+        <ns0:scale>0.5</ns0:scale>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:StyleMap id="waypoint">
+      <ns0:Pair>
+        <ns0:key>normal</ns0:key>
+        <ns0:styleUrl>#waypoint_n</ns0:styleUrl>
+      </ns0:Pair>
+      <ns0:Pair>
+        <ns0:key>highlight</ns0:key>
+        <ns0:styleUrl>#waypoint_h</ns0:styleUrl>
+      </ns0:Pair>
+    </ns0:StyleMap>
+    <ns0:Style id="lineStyle">
+      <ns0:LineStyle>
+        <ns0:color>99ffac59</ns0:color>
+        <ns0:width>6</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Folder>
+    <ns0:name>Tracks</ns0:name>
+      <ns0:Folder><ns0:Folder><ns0:Name>Points</ns0:Name><ns0:Placemark><ns0:styleUrl>#track</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2049393909</ns0:latitude><ns0:longitude>-88.3932647709</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3932647709,40.2049393909</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2044715505</ns0:latitude><ns0:longitude>-88.3934049678</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3934049678,40.2044715505</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2044703942</ns0:latitude><ns0:longitude>-88.3933214562</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3933214562,40.2044703942</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2045961563</ns0:latitude><ns0:longitude>-88.3934366254</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3934366254,40.2045961563</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2037862718</ns0:latitude><ns0:longitude>-88.3937763541</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3937763541,40.2037862718</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2028945949</ns0:latitude><ns0:longitude>-88.3938140109</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3938140109,40.2028945949</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2046383436</ns0:latitude><ns0:longitude>-88.3934993034</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3934993034,40.2046383436</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2038338299</ns0:latitude><ns0:longitude>-88.3938414258</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3938414258,40.2038338299</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2026091821</ns0:latitude><ns0:longitude>-88.394097695</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.394097695,40.2026091821</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2025741019</ns0:latitude><ns0:longitude>-88.3938856459</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3938856459,40.2025741019</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2045916679</ns0:latitude><ns0:longitude>-88.3936093206</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3936093206,40.2045916679</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2046480086</ns0:latitude><ns0:longitude>-88.3932461844</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3932461844,40.2046480086</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2043448392</ns0:latitude><ns0:longitude>-88.3936043826</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3936043826,40.2043448392</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2046360912</ns0:latitude><ns0:longitude>-88.3934602265</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3934602265,40.2046360912</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2045238909</ns0:latitude><ns0:longitude>-88.3932516361</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3932516361,40.2045238909</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2032965513</ns0:latitude><ns0:longitude>-88.3934007513</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3934007513,40.2032965513</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2045959168</ns0:latitude><ns0:longitude>-88.3931929826</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3931929826,40.2045959168</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2044025617</ns0:latitude><ns0:longitude>-88.3932566894</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3932566894,40.2044025617</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2047607653</ns0:latitude><ns0:longitude>-88.3933246599</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3933246599,40.2047607653</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2031069471</ns0:latitude><ns0:longitude>-88.3935514342</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3935514342,40.2031069471</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#feats</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.203740029</ns0:latitude><ns0:longitude>-88.3937420967</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3937420967,40.203740029</ns0:coordinates></ns0:Point></ns0:Placemark><ns0:Placemark><ns0:styleUrl>#track</ns0:styleUrl><ns0:LookAt><ns0:latitude>40.2049378707</ns0:latitude><ns0:longitude>-88.3932648066</ns0:longitude></ns0:LookAt><ns0:Point><ns0:coordinates>-88.3932648066,40.2049378707</ns0:coordinates></ns0:Point></ns0:Placemark></ns0:Folder><ns0:Placemark><ns0:Name>Path</ns0:Name><ns0:styleUrl>#lineStyle</ns0:styleUrl><ns0:lineString><ns0:tessellate>1</ns0:tessellate><ns0:coordinates /></ns0:lineString></ns0:Placemark></ns0:Folder>
+      </ns0:Folder>
+    </ns0:Document>
+  </ns0:kml>
